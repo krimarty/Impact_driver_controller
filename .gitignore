@@ -1,0 +1,8 @@
+**/build/
+**/fp-info-cache/
+**/Impact_driver_controllersiteshift-backups/
+**/pico-sdk/
+**/.vscode/
+**/.DS_Store
+**/.idea/
+**/cmake-build-debug/
