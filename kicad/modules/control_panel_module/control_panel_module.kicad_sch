@@ -1,0 +1,167 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "01f48663-51d7-48f4-9aa9-9279c565a6cb")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 223.52 69.85)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3435a71d-92c9-4e5b-8c73-f52216b902ae")
+		(property "Sheetname" "SSD1306"
+			(at 223.52 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SSD1306.kicad_sch"
+			(at 223.52 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 223.52 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3e3c69b-cadf-4288-b0d9-9e480412086b")
+		)
+		(pin "SCL" bidirectional
+			(at 223.52 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8bd74e5-6e0e-4c49-9cb4-3a309ce0b55a")
+		)
+		(instances
+			(project "control_panel_module"
+				(path "/01f48663-51d7-48f4-9aa9-9279c565a6cb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 113.03)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "da3882a4-de83-4b7b-a911-0ab86609a0d0")
+		(property "Sheetname" "Indicators"
+			(at 223.52 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indicators.kicad_sch"
+			(at 223.52 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "control_panel_module"
+				(path "/01f48663-51d7-48f4-9aa9-9279c565a6cb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 91.44)
+		(size 16.51 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f1f09a98-6452-4cc9-9ea6-171d66ed561a")
+		(property "Sheetname" "Buttons"
+			(at 223.52 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 223.52 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RV_SPEED" output
+			(at 223.52 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e697ede1-038c-45e7-80ed-273c5e1fd1ea")
+		)
+		(pin "SW_MODE" output
+			(at 223.52 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e381f0f5-fe1e-446f-a66d-20df398f221b")
+		)
+		(instances
+			(project "control_panel_module"
+				(path "/01f48663-51d7-48f4-9aa9-9279c565a6cb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

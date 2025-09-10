@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SSD1306_CPM")(type "KiCad")(uri "${KIPRJMOD}/libs/SSD1306/SSD1306.pretty")(options "")(descr ""))
+)
