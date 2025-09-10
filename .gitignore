@@ -1,6 +1,8 @@
 **/build/
 **/fp-info-cache/
 **/Impact_driver_controller-backups/
+**/MCU_module-backups/
+**/DRV8874_module/
 **/pico-sdk/
 **/.vscode/
 **/.DS_Store
