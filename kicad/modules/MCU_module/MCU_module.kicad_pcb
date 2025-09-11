@@ -6484,7 +6484,7 @@
 			)
 		)
 	)
-	(gr_text "MCU_mudule"
+	(gr_text "MCU_module"
 		(at 73.15 109.62 90)
 		(layer "F.SilkS")
 		(uuid "65b86c2c-d63c-4238-b2c8-5e216d6749d2")

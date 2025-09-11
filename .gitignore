@@ -3,6 +3,7 @@
 **/Impact_driver_controller-backups/
 **/MCU_module-backups/
 **/DRV8874_module/
+**/control_panel_module-backups/
 **/pico-sdk/
 **/.vscode/
 **/.DS_Store
