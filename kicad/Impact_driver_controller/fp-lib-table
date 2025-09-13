@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "MCU_RaspberryPi_and_Boards_impact")(type "KiCad")(uri "${KIPRJMOD}/libs/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.pretty")(options "")(descr ""))
   (lib (name "SSD1306_impact")(type "KiCad")(uri "${KIPRJMOD}/libs/SSD1306/SSD1306.pretty")(options "")(descr ""))
+  (lib (name "modules")(type "KiCad")(uri "${KIPRJMOD}/libs/modules/Library.pretty")(options "")(descr ""))
+  (lib (name "DRV8874_module")(type "KiCad")(uri "${KIPRJMOD}/libs/modules/DRV8874_module.pretty")(options "")(descr ""))
+  (lib (name "MCU_module")(type "KiCad")(uri "${KIPRJMOD}/libs/modules/MCU_module.pretty")(options "")(descr ""))
 )

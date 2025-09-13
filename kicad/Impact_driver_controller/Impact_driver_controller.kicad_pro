@@ -390,6 +390,14 @@
     [
       "357ac2cb-f3e2-4c88-950a-8f79cec0020c",
       "Power supply"
+    ],
+    [
+      "c2270c09-6988-4327-90cc-327a8429dd61",
+      "Current probe"
+    ],
+    [
+      "c4114ff2-175b-46de-9044-0c081bfd66e4",
+      "Drivers"
     ]
   ],
   "text_variables": {}

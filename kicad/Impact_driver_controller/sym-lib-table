@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "MCU_RaspberryPi_and_Boards_impact")(type "KiCad")(uri "${KIPRJMOD}/libs/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym")(options "")(descr ""))
   (lib (name "SSD1306-128x64_OLED_impact")(type "Legacy")(uri "${KIPRJMOD}/libs/SSD1306/SSD1306-128x64_OLED.lib")(options "")(descr ""))
+  (lib (name "control_panel_module")(type "KiCad")(uri "${KIPRJMOD}/libs/modules/control_panel_module.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8874_module")(type "KiCad")(uri "${KIPRJMOD}/libs/modules/DRV8874_module.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_module")(type "KiCad")(uri "${KIPRJMOD}/libs/modules/MCU_module.kicad_sym")(options "")(descr ""))
 )
