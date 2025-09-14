@@ -7,6 +7,7 @@
 		(at 0 13.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "84d88a75-9001-4017-aa3c-aaab5d133a75")
 		(effects
 			(font
@@ -67,7 +68,7 @@
 		)
 	)
 	(property "MF" " "
-		(at 20.825 13.33 180)
+		(at -81.75 86.5 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -81,7 +82,7 @@
 		)
 	)
 	(property "Description_1" " "
-		(at 19.875 13.28 180)
+		(at -82.7 86.45 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -95,7 +96,7 @@
 		)
 	)
 	(property "Package" " "
-		(at 18.925 13.28 180)
+		(at -83.65 86.45 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -109,7 +110,7 @@
 		)
 	)
 	(property "Price" " "
-		(at 21.825 13.33 180)
+		(at -80.75 86.5 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -123,7 +124,7 @@
 		)
 	)
 	(property "SnapEDA_Link" " "
-		(at 17.975 13.28 180)
+		(at -84.6 86.45 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -151,7 +152,7 @@
 		)
 	)
 	(property "Availability" " "
-		(at 22.975 13.43 180)
+		(at -79.6 86.6 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -165,7 +166,7 @@
 		)
 	)
 	(property "Check_prices" " "
-		(at 23.925 13.63 180)
+		(at -78.65 86.8 180)
 		(unlocked yes)
 		(layer "B.Fab")
 		(hide yes)
@@ -179,16 +180,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_line
-		(start 21.925 -9.17)
-		(end 21.925 -9.145)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8231a2ea-6158-4639-b543-01c0fda46457")
-	)
 	(fp_line
 		(start -23.075 9.325)
 		(end -23.075 -9.17)
@@ -218,6 +209,16 @@
 		)
 		(layer "F.Fab")
 		(uuid "0a3c23b5-b730-496b-929a-86019e0f9def")
+	)
+	(fp_line
+		(start 21.925 -9.17)
+		(end 21.925 -9.145)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8231a2ea-6158-4639-b543-01c0fda46457")
 	)
 	(fp_line
 		(start 21.925 9.33)

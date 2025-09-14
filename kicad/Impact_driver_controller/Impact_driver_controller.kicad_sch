@@ -2161,6 +2161,10 @@
 		(uuid "e61c28b7-71a5-4ed3-a761-23ced5513f63")
 	)
 	(no_connect
+		(at 181.61 26.67)
+		(uuid "f6704d88-39ec-4b91-abd7-67079b4cb571")
+	)
+	(no_connect
 		(at 181.61 54.61)
 		(uuid "f7691c50-f2ca-4d3c-8608-634344284df8")
 	)
