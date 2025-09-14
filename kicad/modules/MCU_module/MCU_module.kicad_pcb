@@ -6411,6 +6411,17 @@
 		(net 32)
 		(uuid "9fa8873a-83f9-4d3f-af1d-046480102439")
 	)
+	(gr_circle
+		(center 102.3 114)
+		(end 103.3 114)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2ea9af49-553c-4e6d-b2bc-f4c536ab4075")
+	)
 	(gr_arc
 		(start 104.76 113.67)
 		(mid 103.881198 115.791614)

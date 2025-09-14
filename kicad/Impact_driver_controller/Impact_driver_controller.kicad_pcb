@@ -1322,7 +1322,7 @@
 			(at 0 13.1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b380713e-7f76-42ff-b15e-ca6172eb163a")
+			(uuid "f8f70c7f-c35d-404c-93e6-c6af1b4365ec")
 			(effects
 				(font
 					(size 1 1)
@@ -1334,7 +1334,7 @@
 			(at 0 14.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4dddb557-d73e-4814-a07c-06cb768937fb")
+			(uuid "41b0077b-4e66-40d0-b604-c7c28bb6a62c")
 			(effects
 				(font
 					(size 1 1)
@@ -1347,7 +1347,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d97cdb24-e6fb-4082-a2f5-935a0a98413d")
+			(uuid "e60e294a-035a-4d56-b60c-cf320a82da9a")
 			(effects
 				(font
 					(size 1 1)
@@ -1360,7 +1360,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09dd7cfb-cab1-49b1-ae71-58df0931db4b")
+			(uuid "996339a4-820e-4e5d-904f-1efe33c7b53a")
 			(effects
 				(font
 					(size 1 1)
@@ -1373,7 +1373,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b3ddaf3-d8d8-42dd-b64f-5519feebaf8d")
+			(uuid "280bf854-cb04-4174-af6e-fe476a998ac5")
 			(effects
 				(font
 					(size 1 1)
@@ -1386,7 +1386,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bca6a6d0-446d-48af-bb73-82fe141ca202")
+			(uuid "0829b7d4-dcb8-4bd3-812b-b51dd2206291")
 			(effects
 				(font
 					(size 1 1)
@@ -1400,7 +1400,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1e881f42-dd86-4594-9423-82374fc342b7")
+			(uuid "c7cf7fe1-e327-4cc9-9b27-fa16048dcc37")
 			(effects
 				(font
 					(size 1 1)
@@ -1414,7 +1414,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "84bd2b7e-d725-4e62-ac3c-ba63e33afe20")
+			(uuid "8efb4ced-216b-4dee-9425-fea9925f2f31")
 			(effects
 				(font
 					(size 1 1)
@@ -1428,7 +1428,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2bac608d-031a-4bd7-961b-1f46c4d1ccec")
+			(uuid "985d6af2-acfd-4523-b237-9bf84fd18920")
 			(effects
 				(font
 					(size 1 1)
@@ -1442,7 +1442,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4a6e77d2-df19-478e-bd0c-29dbb69e84c3")
+			(uuid "d6afd2d1-c121-4b60-b316-a0523f142734")
 			(effects
 				(font
 					(size 1 1)
@@ -1456,7 +1456,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3d7ff51c-7ad3-47c9-a67b-88d8b558e879")
+			(uuid "c9eb6979-febb-43b6-af90-226e7e15e5be")
 			(effects
 				(font
 					(size 1 1)
@@ -1470,7 +1470,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5aa6ae6c-14a8-4950-9801-db6c7557e9c5")
+			(uuid "33f32422-86a0-4db1-8371-24e60bebfa55")
 			(effects
 				(font
 					(size 1 1)
@@ -1484,7 +1484,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f2da65a5-c96b-408a-be57-4742c6f11a74")
+			(uuid "cf36404e-d392-40a0-b7a1-7a7ffdb8dd7f")
 			(effects
 				(font
 					(size 1 1)
@@ -1497,6 +1497,17 @@
 		(sheetname "Drivers")
 		(sheetfile "Drivers.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 16.125 -10.075)
+			(end 17.125 -10.075)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "243e449b-9b5b-4263-8925-ad5109e3d035")
+		)
 		(fp_line
 			(start 19.425 11.83)
 			(end -20.575 11.83)
@@ -1505,7 +1516,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "d7298a38-71b7-4747-ab4e-7a893b4573e3")
+			(uuid "68327cb2-3b3d-4f3e-b771-2343f2becc45")
 		)
 		(fp_line
 			(start 21.925 9.33)
@@ -1515,7 +1526,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "fff3692c-dfbf-44ea-ab35-deffa5f599fb")
+			(uuid "59a71465-901f-4be9-8316-6f314621bb36")
 		)
 		(fp_line
 			(start -23.075 9.325)
@@ -1525,7 +1536,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "33d98b8f-e73e-48d4-9293-995eac89a575")
+			(uuid "4f6c5175-07d5-4cdc-a56c-48045d91c6f8")
 		)
 		(fp_line
 			(start 21.925 -9.17)
@@ -1535,7 +1546,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "3b9aaaeb-0fa1-45d7-8219-7cfc8ad900fd")
+			(uuid "c991b173-7371-4bf8-a93e-62f9671e7c2d")
 		)
 		(fp_line
 			(start -20.575 -11.67)
@@ -1545,7 +1556,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "8a2bbbe4-6f9a-435c-822e-ef820ffd2e0d")
+			(uuid "21087ff7-3670-4bcf-8774-94d04bbdd509")
 		)
 		(fp_arc
 			(start -20.575 11.825)
@@ -1556,7 +1567,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "d188d0f1-1ff7-4cbe-8cfa-50bc5877b094")
+			(uuid "754430fb-fca9-430b-944c-6b45834291df")
 		)
 		(fp_arc
 			(start 21.925 9.33)
@@ -1567,7 +1578,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "78cb7660-89dd-4214-8b1b-ac33e7d80791")
+			(uuid "4e3fb9a7-7840-44c3-b496-e550112863f7")
 		)
 		(fp_arc
 			(start -23.075 -9.17)
@@ -1578,7 +1589,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "f6e36d0a-ab38-443b-a423-39982e2c697e")
+			(uuid "9ae30afe-33f4-47b9-827b-37bd0b91290d")
 		)
 		(fp_arc
 			(start 19.425 -11.67)
@@ -1589,13 +1600,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "700624b1-e67f-48d6-afbc-b4de1d2762d6")
+			(uuid "94ae46ab-bf45-454d-9bc4-9ce0dafddebc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 16.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7d6d686b-524a-44d8-934b-b8c30644a676")
+			(uuid "62e17c2f-e03b-4354-84f5-84adf0d8e8b4")
 			(effects
 				(font
 					(size 1 1)
@@ -1612,7 +1623,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "EN")
 			(pintype "passive")
-			(uuid "42a28f96-72c6-4818-8a68-0636153a6794")
+			(uuid "52557e00-bf2e-4e95-8ca2-472bcf25eca6")
 		)
 		(pad "2" thru_hole oval
 			(at -20.8 6.54 270)
@@ -1623,7 +1634,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "PH")
 			(pintype "passive")
-			(uuid "7989a126-ed44-4097-b762-e6dd96a194f6")
+			(uuid "ac7d5aee-3761-4892-8381-b368ac35d24f")
 		)
 		(pad "3" thru_hole oval
 			(at -20.8 4 270)
@@ -1634,7 +1645,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "SLEEP")
 			(pintype "passive")
-			(uuid "0ea77fdc-c89e-48d0-8aed-0101cd4c6aa5")
+			(uuid "fcce5cfa-7261-4ff7-972b-9a150a5f2341")
 		)
 		(pad "4" thru_hole oval
 			(at -20.8 1.46 270)
@@ -1645,7 +1656,7 @@
 			(net 24 "/Drivers/FAULT_6")
 			(pinfunction "FAULT")
 			(pintype "passive")
-			(uuid "e99ba857-2f71-4a65-832d-347683d383bc")
+			(uuid "54945d42-fe5e-43a8-b05f-246d0adcd8d9")
 		)
 		(pad "5" thru_hole oval
 			(at -20.8 -1.08 270)
@@ -1656,7 +1667,7 @@
 			(net 25 "/Drivers/+Vref")
 			(pinfunction "+Vref")
 			(pintype "passive")
-			(uuid "c96db932-266e-410d-a807-de3bd32a3214")
+			(uuid "b65f864a-6080-4a4c-845b-b017ea3f7d8f")
 		)
 		(pad "6" thru_hole oval
 			(at -20.8 -3.62 270)
@@ -1667,7 +1678,7 @@
 			(net 67 "unconnected-(U9-IPROP-Pad6)")
 			(pinfunction "IPROP")
 			(pintype "passive+no_connect")
-			(uuid "9755a354-67c6-41f9-b442-874cd61965de")
+			(uuid "2ecaebaf-3882-4ff9-a247-b5f09f110064")
 		)
 		(pad "7" thru_hole oval
 			(at -20.8 -6.16 270)
@@ -1678,7 +1689,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+Vcc")
 			(pintype "power_in")
-			(uuid "d457d95b-5859-4531-9b9c-405eaeceeb3c")
+			(uuid "01032a3b-b57c-460b-972e-5117c15fe445")
 		)
 		(pad "8" thru_hole oval
 			(at -20.8 -8.7 270)
@@ -1689,7 +1700,7 @@
 			(net 68 "unconnected-(U9-none-Pad8)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "08983690-ea5d-463a-ba0b-34326f0d5a1f")
+			(uuid "06cdccda-7209-466c-a453-d2cf8c0dab9b")
 		)
 		(pad "9" thru_hole rect
 			(at 19.2 -8.7 90)
@@ -1700,7 +1711,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "668fb121-2856-4963-99ae-89750bff50b7")
+			(uuid "ec68f434-a90a-497d-8dbd-0e6d5a07aa83")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -6.16 90)
@@ -1711,7 +1722,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "4785ea74-36dd-4aa7-a105-ce3ed82ee313")
+			(uuid "c82dd8f9-10d3-4451-b992-ea4e6c52b8c9")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -3.62 90)
@@ -1722,7 +1733,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "dc9f3bae-bffd-4168-9339-464b031865bb")
+			(uuid "2ecb3150-af5a-485f-a406-9d72ad777345")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -1.08 90)
@@ -1733,7 +1744,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "9080260b-2ddb-4a3a-86eb-36439c0414bf")
+			(uuid "4ea16d87-e168-493e-82b2-a6697f1f4728")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 1.46 90)
@@ -1744,7 +1755,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "aa5c9352-12f5-4097-b51b-da63524770d8")
+			(uuid "4e324576-cba7-43f5-97c6-99bb3611c8ae")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 4 90)
@@ -1755,7 +1766,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "c036b19b-d889-4894-b45c-dcda7c300251")
+			(uuid "418faa32-68ae-4467-ad64-b96e63157986")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 6.54 90)
@@ -1766,7 +1777,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "8c20e2f3-1a19-4ea2-8c5a-8826f7e4d96b")
+			(uuid "8a7aed29-7bda-472f-9c34-d6ca6a370348")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 9.08 90)
@@ -1777,7 +1788,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "2c1af7b9-379d-4896-b040-d44d25f665b0")
+			(uuid "ec9fb955-d9f4-4e69-a4e9-32643ae76cdd")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -2326,7 +2337,7 @@
 			(at 0 13.1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "edc2c977-8903-4785-944f-7e54f106f1b5")
+			(uuid "1f7d3fc2-4c0a-4419-bb10-3b2b107b044b")
 			(effects
 				(font
 					(size 1 1)
@@ -2335,10 +2346,10 @@
 			)
 		)
 		(property "Value" "DRV8874_module"
-			(at 0 14.6 270)
+			(at 0 14.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "579778a6-70ab-45e8-96e1-05a38e34c20d")
+			(uuid "6a0d17f0-b006-4aba-8b5a-8f062df4dddc")
 			(effects
 				(font
 					(size 1 1)
@@ -2351,7 +2362,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97d2df1e-8c75-4df0-a8aa-fc43f9da708c")
+			(uuid "3a0bb8f3-9071-4b25-9c5c-2801e8a13a98")
 			(effects
 				(font
 					(size 1 1)
@@ -2364,7 +2375,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "091962af-256f-4dae-8a8d-763f6d1f9c3b")
+			(uuid "c0355643-7107-419c-a946-6836bcdd71da")
 			(effects
 				(font
 					(size 1 1)
@@ -2377,7 +2388,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f93f90ad-a729-4f47-9827-b23c0b12a98d")
+			(uuid "434c7888-f829-4f30-a8be-f0d1f285edd4")
 			(effects
 				(font
 					(size 1 1)
@@ -2390,7 +2401,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c81877cf-b2fe-405e-9f43-18875db0a6a6")
+			(uuid "44d6800e-af87-4463-83cf-42bf83a21058")
 			(effects
 				(font
 					(size 1 1)
@@ -2404,7 +2415,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d796d1fc-07ee-46b0-94fb-a87055de51bc")
+			(uuid "93dcb665-387f-4f1c-8a4a-512953e68964")
 			(effects
 				(font
 					(size 1 1)
@@ -2418,7 +2429,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "37d4f43d-587d-42fa-b91d-7277bd83f6c9")
+			(uuid "018bf51a-ff7c-4cf6-8c75-308ac7f61b4b")
 			(effects
 				(font
 					(size 1 1)
@@ -2432,7 +2443,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "072a3327-1049-4747-b07b-5c5c6af47fbb")
+			(uuid "5759dc67-1c0a-448e-bc21-f4423a61bc53")
 			(effects
 				(font
 					(size 1 1)
@@ -2446,7 +2457,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5bcb37fe-5514-463e-9ad9-132d4e9b0667")
+			(uuid "7b9e7030-bcdd-491d-bdd1-3ae2885c6595")
 			(effects
 				(font
 					(size 1 1)
@@ -2460,7 +2471,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1b267f2e-5c38-4a01-90a2-297cf8f67fb3")
+			(uuid "408a36be-d8dc-4d18-b9bc-f3ff70c26c15")
 			(effects
 				(font
 					(size 1 1)
@@ -2474,7 +2485,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3edbcf67-1a32-494d-85cc-2c1b6e6ac72f")
+			(uuid "13f98c84-4406-47c4-8001-741b466d112c")
 			(effects
 				(font
 					(size 1 1)
@@ -2488,7 +2499,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d8862386-2b5b-45d5-a80d-61fdb0b61b21")
+			(uuid "531520b6-9db4-48ab-bbfb-02edbd6b9116")
 			(effects
 				(font
 					(size 1 1)
@@ -2501,6 +2512,17 @@
 		(sheetname "Drivers")
 		(sheetfile "Drivers.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 16.125 -10.075)
+			(end 17.125 -10.075)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "50d2a06c-f843-45f2-8d52-74bd25eae134")
+		)
 		(fp_line
 			(start 19.425 11.83)
 			(end -20.575 11.83)
@@ -2509,7 +2531,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "318c045f-824f-4e97-a7a5-030bae640c60")
+			(uuid "65908f0c-4824-49d2-a16b-513e0195a67b")
 		)
 		(fp_line
 			(start 21.925 9.33)
@@ -2519,7 +2541,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "37326b7d-f910-436f-b8ce-a9a59c557b13")
+			(uuid "496ebf04-d465-44d3-9289-c201c594ba0f")
 		)
 		(fp_line
 			(start -23.075 9.325)
@@ -2529,7 +2551,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "8d9f8be6-23ff-40ed-9c3a-754bae1abe99")
+			(uuid "1e59d18f-f5cd-4580-b552-2fdee0a34d3e")
 		)
 		(fp_line
 			(start 21.925 -9.17)
@@ -2539,7 +2561,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "f63dd273-2db8-44d7-bc4d-e5dc8dd1a2a0")
+			(uuid "fbf7d905-bf97-4541-8075-fa73f05d6a09")
 		)
 		(fp_line
 			(start -20.575 -11.67)
@@ -2549,7 +2571,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "8c0e8302-846a-48c7-8151-d4a6c57970e1")
+			(uuid "1a0c681a-046d-42bd-adb3-e5dc3248b784")
 		)
 		(fp_arc
 			(start -20.575 11.825)
@@ -2560,7 +2582,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "088bf0f6-6c39-424f-84d8-63f03d4a4852")
+			(uuid "c9eddca9-56d4-48e9-ba2d-aded399b0368")
 		)
 		(fp_arc
 			(start 21.925 9.33)
@@ -2571,7 +2593,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "1ecf2047-1b28-459e-b834-64de445a45a0")
+			(uuid "f075b853-a973-43b7-8b15-4f32f3b5a242")
 		)
 		(fp_arc
 			(start -23.075 -9.17)
@@ -2582,7 +2604,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "f73c838e-99e5-4353-919e-2c4c2b58fb80")
+			(uuid "13bc31f8-a23e-4b21-87ce-54aaccdf2e2f")
 		)
 		(fp_arc
 			(start 19.425 -11.67)
@@ -2593,13 +2615,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "dffb64c1-d463-4327-ba25-9dcf0ffb2e8a")
+			(uuid "13f18ab8-064a-435f-a074-611544822a7b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 16.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "64003a92-7acd-4cce-bae9-7ba5081c108e")
+			(uuid "46de4344-7c54-4d14-9b4d-ba566752e023")
 			(effects
 				(font
 					(size 1 1)
@@ -2616,7 +2638,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "EN")
 			(pintype "passive")
-			(uuid "b5fee2fb-b6e6-49d7-acba-949abca1406f")
+			(uuid "080ebba7-b2ec-4160-85a2-7c865e5871a7")
 		)
 		(pad "2" thru_hole oval
 			(at -20.8 6.54 270)
@@ -2627,7 +2649,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "PH")
 			(pintype "passive")
-			(uuid "3423bae6-8819-435d-8224-04f42737f4d5")
+			(uuid "5490020b-e651-4751-831d-a465681ad087")
 		)
 		(pad "3" thru_hole oval
 			(at -20.8 4 270)
@@ -2638,7 +2660,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "SLEEP")
 			(pintype "passive")
-			(uuid "137a10c7-a259-4cdc-b3c0-2ff07bbdc202")
+			(uuid "75c1574a-5c1f-41a8-9195-bd2d88392c20")
 		)
 		(pad "4" thru_hole oval
 			(at -20.8 1.46 270)
@@ -2649,7 +2671,7 @@
 			(net 20 "/Drivers/FAULT_2")
 			(pinfunction "FAULT")
 			(pintype "passive")
-			(uuid "46f99f5b-26c0-4ecd-b826-9335eb46fc5c")
+			(uuid "7d9d7a84-29d6-4ec6-b839-fa32b7868f45")
 		)
 		(pad "5" thru_hole oval
 			(at -20.8 -1.08 270)
@@ -2660,7 +2682,7 @@
 			(net 25 "/Drivers/+Vref")
 			(pinfunction "+Vref")
 			(pintype "passive")
-			(uuid "ac73c3e7-c81b-4b05-9d96-f660ad56f947")
+			(uuid "0c9b1a70-fadc-4658-9bc8-8fffdf5c1089")
 		)
 		(pad "6" thru_hole oval
 			(at -20.8 -3.62 270)
@@ -2671,7 +2693,7 @@
 			(net 34 "unconnected-(U4-IPROP-Pad6)")
 			(pinfunction "IPROP")
 			(pintype "passive+no_connect")
-			(uuid "0a2ab2b2-9615-4c66-babe-adb0311e326c")
+			(uuid "d35d18f2-cdc9-4953-8130-3475a5605eee")
 		)
 		(pad "7" thru_hole oval
 			(at -20.8 -6.16 270)
@@ -2682,7 +2704,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+Vcc")
 			(pintype "power_in")
-			(uuid "35b7f170-e108-44e5-b80b-f50a2958c28c")
+			(uuid "e4b5c346-9a30-46b7-b67c-797f74e83fb9")
 		)
 		(pad "8" thru_hole oval
 			(at -20.8 -8.7 270)
@@ -2693,7 +2715,7 @@
 			(net 33 "unconnected-(U4-none-Pad8)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "e2cde3ab-195f-4e90-9007-216989407c88")
+			(uuid "360b0c7b-72cc-46fe-912d-2d2b36fd4661")
 		)
 		(pad "9" thru_hole rect
 			(at 19.2 -8.7 90)
@@ -2704,7 +2726,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "3ad7261b-4911-44fe-9b66-cb85cb804666")
+			(uuid "b3be87b4-42bd-4a66-8ceb-12247cf1a1dc")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -6.16 90)
@@ -2715,7 +2737,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "87435910-f236-41d0-8b36-8fa1e81f2242")
+			(uuid "6b9a34ec-c9bd-42fa-a36b-9309a7e5ae73")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -3.62 90)
@@ -2726,7 +2748,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "9bcb8110-89d6-42e6-9a0a-249913fe3681")
+			(uuid "f0fb19d9-6079-4ec3-9167-fa07460f860a")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -1.08 90)
@@ -2737,7 +2759,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "d0b0632a-1933-49fe-bcb7-d7c5a5bf0ba5")
+			(uuid "6f8a2483-747e-4009-85f1-7e11459a1399")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 1.46 90)
@@ -2748,7 +2770,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "d31c2aaa-e2fe-409c-b17e-542ffa896f67")
+			(uuid "86d6aa3a-5c20-4348-9d64-305defc0d3d4")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 4 90)
@@ -2759,7 +2781,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "4de7c726-b3cd-4d3d-af5c-344451018b11")
+			(uuid "321e8116-5e04-4134-a816-cf3d305083c3")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 6.54 90)
@@ -2770,7 +2792,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "01ab4706-94b8-46a9-877a-ec492bf5dda4")
+			(uuid "7f2be6b0-b161-41a7-ad6e-c16f31221fe2")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 9.08 90)
@@ -2781,7 +2803,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "21952941-e67b-4d21-9028-4818fdc60abf")
+			(uuid "b799684a-cfce-4aff-bce8-13633a729ec5")
 		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -3027,7 +3049,7 @@
 			(at 0 13.1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "c47dbb35-62f8-4b81-8bfa-0c20c7a4b6b9")
+			(uuid "323f23da-48fa-472a-8564-f35f3bcbc05f")
 			(effects
 				(font
 					(size 1 1)
@@ -3039,7 +3061,7 @@
 			(at 0 14.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "82b53e28-47f6-4e24-acd0-bf5216aa35ef")
+			(uuid "43115a37-302a-46fc-b05e-a228c2e240aa")
 			(effects
 				(font
 					(size 1 1)
@@ -3052,7 +3074,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e89fdb07-d118-4cc5-aae1-df1bb14c583d")
+			(uuid "7ec7a810-70f2-4e3e-b60d-31a679f0998d")
 			(effects
 				(font
 					(size 1 1)
@@ -3065,7 +3087,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75769d4d-ba10-499d-8ce0-b548d7ac3787")
+			(uuid "183663d4-e6cf-4e74-ba5e-146791050225")
 			(effects
 				(font
 					(size 1 1)
@@ -3078,7 +3100,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77fe96bc-392c-4460-9319-ac1a22a294ea")
+			(uuid "415fd669-5a5b-4a97-8ae4-13ec5282fe7a")
 			(effects
 				(font
 					(size 1 1)
@@ -3091,7 +3113,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3347311d-af1e-4421-a5bf-f99e0ae09a05")
+			(uuid "70bb30e0-632e-4d08-841b-2d1980ac4510")
 			(effects
 				(font
 					(size 1 1)
@@ -3105,7 +3127,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7ea99ddd-a911-44da-abfb-7e242d1588c3")
+			(uuid "fca005de-3c5b-4c05-9cf9-26ac29569560")
 			(effects
 				(font
 					(size 1 1)
@@ -3119,7 +3141,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5d826694-a096-4f8e-a40f-37915c80f8a7")
+			(uuid "45c4d8bd-3a7b-4cc2-8e91-2f39e75888f0")
 			(effects
 				(font
 					(size 1 1)
@@ -3133,7 +3155,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "72def12c-f409-4a5e-8887-37e0fadd2f89")
+			(uuid "2a452490-9d6a-431a-a113-44d647777530")
 			(effects
 				(font
 					(size 1 1)
@@ -3147,7 +3169,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4735a7aa-e9a2-4e19-b3bf-91e0d16c8747")
+			(uuid "f6108b09-eb54-40c3-9519-1ffbb5a37b7f")
 			(effects
 				(font
 					(size 1 1)
@@ -3161,7 +3183,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b77cfe79-e4fb-4eb9-ae60-918a0faac798")
+			(uuid "2c8001e6-4627-4435-a781-5637fa02001b")
 			(effects
 				(font
 					(size 1 1)
@@ -3175,7 +3197,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "56f478c9-c0d1-4298-9a04-978ccb5e39e3")
+			(uuid "4b4569ae-cd2b-446b-af8d-61ae3e4d9333")
 			(effects
 				(font
 					(size 1 1)
@@ -3189,7 +3211,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "92bfc016-56fe-495e-94da-5e3b87f8d25d")
+			(uuid "38f420dc-019d-4415-a2a9-6e32788ede64")
 			(effects
 				(font
 					(size 1 1)
@@ -3202,6 +3224,17 @@
 		(sheetname "Drivers")
 		(sheetfile "Drivers.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 16.125 -10.075)
+			(end 17.125 -10.075)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "43e55e7b-12d1-4ec4-8d47-a03d4abb5c8f")
+		)
 		(fp_line
 			(start 19.425 11.83)
 			(end -20.575 11.83)
@@ -3210,7 +3243,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "55599e07-b654-48d0-b9d4-cc04603ecea6")
+			(uuid "37552524-45a1-4d0a-89d8-edd43d039932")
 		)
 		(fp_line
 			(start 21.925 9.33)
@@ -3220,7 +3253,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "29500cb4-e303-4030-9757-d4989c6bc6c2")
+			(uuid "35342b79-e53c-4dac-b812-abc76225997a")
 		)
 		(fp_line
 			(start -23.075 9.325)
@@ -3230,7 +3263,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "44e7e46d-6296-4bd8-8b88-c3cd6b86b8e1")
+			(uuid "207770fd-14f5-4913-9f67-69ea90a3329e")
 		)
 		(fp_line
 			(start 21.925 -9.17)
@@ -3240,7 +3273,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "cf3eab95-6b06-4819-b3db-77a6c21bd655")
+			(uuid "242a32fe-42dd-447d-b90d-7fdb8361b193")
 		)
 		(fp_line
 			(start -20.575 -11.67)
@@ -3250,7 +3283,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "bb4dc339-8f4e-4b36-8a19-6d1c71f85886")
+			(uuid "a5a13f84-ab47-4d31-af6f-9b2c43733d4f")
 		)
 		(fp_arc
 			(start -20.575 11.825)
@@ -3261,7 +3294,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "291f0fce-572f-4ba9-9edd-1b768412d758")
+			(uuid "aa56384a-5772-44a2-8f1f-3b22b88857a1")
 		)
 		(fp_arc
 			(start 21.925 9.33)
@@ -3272,7 +3305,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "8bda35ae-2619-415d-803c-6893c1b1845d")
+			(uuid "7be55b1e-b021-4786-8242-a082fa154d22")
 		)
 		(fp_arc
 			(start -23.075 -9.17)
@@ -3283,7 +3316,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "dc169724-1889-4ba4-8326-df8c2e667cf3")
+			(uuid "78b29087-6545-4726-b7a5-7f625ab87a9b")
 		)
 		(fp_arc
 			(start 19.425 -11.67)
@@ -3294,13 +3327,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "3bb0d2e0-895e-4df5-8cb6-9640e32a6503")
+			(uuid "e8f47a63-5b3f-4a7e-ba71-a77bc82bb845")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 16.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5a87b5c6-8dee-4d3c-9507-8cbab53301a1")
+			(uuid "a0dd0b5d-79e7-4da4-b2dc-509a5a255aac")
 			(effects
 				(font
 					(size 1 1)
@@ -3317,7 +3350,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "EN")
 			(pintype "passive")
-			(uuid "e306336c-27e8-4695-964b-e3a5c8d489ef")
+			(uuid "fe4e835b-5dce-47f7-ae66-52e676f226d1")
 		)
 		(pad "2" thru_hole oval
 			(at -20.8 6.54 270)
@@ -3328,7 +3361,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "PH")
 			(pintype "passive")
-			(uuid "81336e7f-3258-494c-9b18-e1e115c50db2")
+			(uuid "4f7e6ad4-c0fd-4e3c-8e4f-611bf3c91083")
 		)
 		(pad "3" thru_hole oval
 			(at -20.8 4 270)
@@ -3339,7 +3372,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "SLEEP")
 			(pintype "passive")
-			(uuid "8ea46bd5-086e-4c32-9337-51e2bce7c40c")
+			(uuid "825cff2d-bfa9-49ab-9d8f-5d5a2a3fc39a")
 		)
 		(pad "4" thru_hole oval
 			(at -20.8 1.46 270)
@@ -3350,7 +3383,7 @@
 			(net 21 "/Drivers/FAULT_3")
 			(pinfunction "FAULT")
 			(pintype "passive")
-			(uuid "1cebf4ff-5212-49c6-8396-a9e996564851")
+			(uuid "7fc378c0-ca18-49de-b98a-f3cbe7618ed7")
 		)
 		(pad "5" thru_hole oval
 			(at -20.8 -1.08 270)
@@ -3361,7 +3394,7 @@
 			(net 25 "/Drivers/+Vref")
 			(pinfunction "+Vref")
 			(pintype "passive")
-			(uuid "c1bef446-62d0-468b-bda4-a20e321a330e")
+			(uuid "1a76a8df-bb4e-4482-be48-fb645bf0241b")
 		)
 		(pad "6" thru_hole oval
 			(at -20.8 -3.62 270)
@@ -3372,7 +3405,7 @@
 			(net 35 "unconnected-(U5-IPROP-Pad6)")
 			(pinfunction "IPROP")
 			(pintype "passive+no_connect")
-			(uuid "39d56040-0c02-4dab-88bd-02620e4917df")
+			(uuid "bc95ed7e-9045-4692-b6a9-07c188a26b25")
 		)
 		(pad "7" thru_hole oval
 			(at -20.8 -6.16 270)
@@ -3383,7 +3416,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+Vcc")
 			(pintype "power_in")
-			(uuid "f38bfdf0-91e2-4b0a-8d1b-d38b6084eff3")
+			(uuid "a8ccc7fb-4f39-49bf-9a19-4397dabbe0dc")
 		)
 		(pad "8" thru_hole oval
 			(at -20.8 -8.7 270)
@@ -3394,7 +3427,7 @@
 			(net 36 "unconnected-(U5-none-Pad8)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "8da7858b-47bd-4e55-a67d-ccde2678ba6f")
+			(uuid "5a9f5569-1215-43a0-82e5-b72d7e5d86e3")
 		)
 		(pad "9" thru_hole rect
 			(at 19.2 -8.7 90)
@@ -3405,7 +3438,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "f9f84adf-3b41-49db-9bc6-4503d2a53793")
+			(uuid "6a8d7bde-b650-4d0d-a587-48cbc494d0d5")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -6.16 90)
@@ -3416,7 +3449,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "9f9f3f61-c628-43cc-8419-e8020c7b0e29")
+			(uuid "082a1a76-fa1f-42fc-9694-6ba9352e9a58")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -3.62 90)
@@ -3427,7 +3460,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "e77fb040-86f3-45cf-b379-4f4725f8925d")
+			(uuid "cb0e44a6-8313-4635-990c-19e48491b0bd")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -1.08 90)
@@ -3438,7 +3471,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "b3061596-eb14-4d2a-8e3c-99dfb1b32a46")
+			(uuid "7666cd85-d187-434d-b0c0-eab79f8f9578")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 1.46 90)
@@ -3449,7 +3482,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "9d6bfe43-9846-41dc-ba67-a1c82d13a6d2")
+			(uuid "2128db17-a58a-4a78-9af0-cdb9f965f45e")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 4 90)
@@ -3460,7 +3493,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "2ba82c72-3ca4-491f-a802-7b8e7ef54903")
+			(uuid "5c7e9fe6-eca1-4696-a403-10c2c77f4228")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 6.54 90)
@@ -3471,7 +3504,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "e1f73f22-71a2-41aa-8536-f94150a93b2c")
+			(uuid "a98f99a4-32b5-4fbe-85d3-565fc50366bf")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 9.08 90)
@@ -3482,7 +3515,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "2e0a6228-6505-46b9-8d28-417b776c759d")
+			(uuid "408ca167-0751-4881-9304-9f9c0e2e926b")
 		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -3728,7 +3761,7 @@
 			(at 0 13.1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ac48a5cf-cb5a-4bac-bb38-cfc5e579cbe1")
+			(uuid "8f30d08e-450d-4eda-8a7d-46e257ce77db")
 			(effects
 				(font
 					(size 1 1)
@@ -3740,7 +3773,7 @@
 			(at 0 14.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f66b51dd-519f-4dd3-b333-c198c822c480")
+			(uuid "67ccf4d5-7e12-4891-8e7d-b2ff695be78d")
 			(effects
 				(font
 					(size 1 1)
@@ -3753,7 +3786,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "defb26eb-9706-4821-bbdd-c3dc2b1f7d13")
+			(uuid "2a047369-18d6-4e76-b7ff-8eadb51f9961")
 			(effects
 				(font
 					(size 1 1)
@@ -3766,7 +3799,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "90e8414a-c984-4958-8bb3-cb729f28c2d9")
+			(uuid "6da2d66d-42e5-4e22-9197-0b9ee0c5bc27")
 			(effects
 				(font
 					(size 1 1)
@@ -3779,7 +3812,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2278824-d98e-4d54-99ab-73018cdacf3e")
+			(uuid "4a5dc305-cf0e-486c-bb85-77cf62d22d32")
 			(effects
 				(font
 					(size 1 1)
@@ -3792,7 +3825,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e67660e8-d790-4108-8449-09575f40c056")
+			(uuid "5f2eec25-5e73-4cae-a6d9-ddd4f5a2cb4e")
 			(effects
 				(font
 					(size 1 1)
@@ -3806,7 +3839,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9865f6f2-3ed0-424a-8979-db7d47bdf987")
+			(uuid "c473c7cf-e72d-432a-b76a-860e0d0b01d9")
 			(effects
 				(font
 					(size 1 1)
@@ -3820,7 +3853,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f53cea9f-3ce9-4ad9-9a06-840c3909d221")
+			(uuid "ee51f9b9-0f7f-4728-80ec-3820dfd1b5a1")
 			(effects
 				(font
 					(size 1 1)
@@ -3834,7 +3867,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2b880fd2-8483-4e0b-888c-3a9a84d69a2a")
+			(uuid "e07bd2df-16ce-4357-9b4e-1d04db2223b6")
 			(effects
 				(font
 					(size 1 1)
@@ -3848,7 +3881,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "66517940-48e2-4c25-9d50-75fa3bf9b18b")
+			(uuid "897d20d0-3a50-46f2-92c0-6ee14d7faded")
 			(effects
 				(font
 					(size 1 1)
@@ -3862,7 +3895,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fd0e827a-3b41-4bc3-9484-a49d5531eb77")
+			(uuid "333a6146-bd3d-48ea-a8c7-55737d1fad0c")
 			(effects
 				(font
 					(size 1 1)
@@ -3876,7 +3909,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6536b6b0-e9c9-4296-be1c-b62e98a8d437")
+			(uuid "2cf23f48-3cf0-4c34-8e0f-53cb95b5b90e")
 			(effects
 				(font
 					(size 1 1)
@@ -3890,7 +3923,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eedd474b-dce0-47bf-b171-402d6477b8c1")
+			(uuid "bd4e8e76-431f-4f06-a8cf-eeecc581f580")
 			(effects
 				(font
 					(size 1 1)
@@ -3903,6 +3936,17 @@
 		(sheetname "Drivers")
 		(sheetfile "Drivers.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 16.125 -10.075)
+			(end 17.125 -10.075)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "4463eaba-57f6-4c59-8fd1-a23286173144")
+		)
 		(fp_line
 			(start 19.425 11.83)
 			(end -20.575 11.83)
@@ -3911,7 +3955,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "3473b0ec-b190-4689-aad2-66b9a2dd2c50")
+			(uuid "d4064664-fe76-4d9b-a965-e43237ff14ec")
 		)
 		(fp_line
 			(start 21.925 9.33)
@@ -3921,7 +3965,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "b5d5c0ea-ff89-4f03-b19b-4a91dcd1c50d")
+			(uuid "36b13aa8-b10e-40e7-b6a8-89e507089026")
 		)
 		(fp_line
 			(start -23.075 9.325)
@@ -3931,7 +3975,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "75ee5208-e13e-4c83-8d1d-fec12b0ee71c")
+			(uuid "4fd1d1fa-3653-4296-89ec-b205360644b1")
 		)
 		(fp_line
 			(start 21.925 -9.17)
@@ -3941,7 +3985,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "43492bcf-9e64-4677-9446-2e6ec5c8841f")
+			(uuid "de57d1cb-f5a7-4d98-8267-920d05ee5796")
 		)
 		(fp_line
 			(start -20.575 -11.67)
@@ -3951,7 +3995,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "94c9f0ba-3b13-4e2e-96d5-232d3206801f")
+			(uuid "dc0761ad-756d-4471-aaf6-5bbf495e842e")
 		)
 		(fp_arc
 			(start -20.575 11.825)
@@ -3962,7 +4006,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "a3634299-d02b-4822-8c46-23009984570f")
+			(uuid "8bc2fc7a-dc6d-45b3-8a93-318fda857424")
 		)
 		(fp_arc
 			(start 21.925 9.33)
@@ -3973,7 +4017,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "5a6c718d-7d25-45fe-bb8d-95730a56b6d5")
+			(uuid "a6b489f1-6b7e-4570-8ece-17d8b0c97116")
 		)
 		(fp_arc
 			(start -23.075 -9.17)
@@ -3984,7 +4028,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "76ccd2ad-7b99-41d8-a90b-d9d0aedf35da")
+			(uuid "a10bda17-e4f2-4b35-864f-a1dd4987f156")
 		)
 		(fp_arc
 			(start 19.425 -11.67)
@@ -3995,13 +4039,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "deec7376-f30b-44f0-9289-1a7bfe66e949")
+			(uuid "361bae73-8f70-4d4d-87ff-d63911c44c09")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 16.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "5c3bb5a1-4674-4210-b7ea-aa78be89f523")
+			(uuid "b02d3e11-2a03-411e-be27-069b67a45658")
 			(effects
 				(font
 					(size 1 1)
@@ -4018,7 +4062,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "EN")
 			(pintype "passive")
-			(uuid "e9cd95a1-2508-441c-80ef-cb487ecd4455")
+			(uuid "868abb28-9305-49c4-ac1b-0cde7ae722fe")
 		)
 		(pad "2" thru_hole oval
 			(at -20.8 6.54 270)
@@ -4029,7 +4073,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "PH")
 			(pintype "passive")
-			(uuid "557975fc-d2aa-439b-9988-b32bcbfdf49c")
+			(uuid "4c2ca5bb-3a72-45f4-b967-278a512cc19c")
 		)
 		(pad "3" thru_hole oval
 			(at -20.8 4 270)
@@ -4040,7 +4084,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "SLEEP")
 			(pintype "passive")
-			(uuid "c4726cb5-8b41-4e2b-bed2-890f218b6ee0")
+			(uuid "7d8d37ab-9477-43c2-8e48-ec5eacf3649a")
 		)
 		(pad "4" thru_hole oval
 			(at -20.8 1.46 270)
@@ -4051,7 +4095,7 @@
 			(net 19 "/Drivers/FAULT_1")
 			(pinfunction "FAULT")
 			(pintype "passive")
-			(uuid "6eb6f072-ee66-4aa4-bc59-a6043ebbd7f8")
+			(uuid "373ab14a-e666-498b-baf7-e15750bd807e")
 		)
 		(pad "5" thru_hole oval
 			(at -20.8 -1.08 270)
@@ -4062,7 +4106,7 @@
 			(net 25 "/Drivers/+Vref")
 			(pinfunction "+Vref")
 			(pintype "passive")
-			(uuid "1f885a7d-18db-44d0-9b9b-44d4641c7a83")
+			(uuid "2385b781-0eb9-4642-a24c-9dd3b4595444")
 		)
 		(pad "6" thru_hole oval
 			(at -20.8 -3.62 270)
@@ -4073,7 +4117,7 @@
 			(net 27 "unconnected-(U1-IPROP-Pad6)")
 			(pinfunction "IPROP")
 			(pintype "passive+no_connect")
-			(uuid "fc7174b9-3788-4854-abe5-1a23f3b018f8")
+			(uuid "281133f8-e520-466e-ab86-8b82607b7e54")
 		)
 		(pad "7" thru_hole oval
 			(at -20.8 -6.16 270)
@@ -4084,7 +4128,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+Vcc")
 			(pintype "power_in")
-			(uuid "6b5f156a-7fc3-4e15-9a04-d4f7368c20d3")
+			(uuid "956b0804-ca62-4832-9215-15a7657e3f60")
 		)
 		(pad "8" thru_hole oval
 			(at -20.8 -8.7 270)
@@ -4095,7 +4139,7 @@
 			(net 29 "unconnected-(U1-none-Pad8)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "45da44eb-8f1d-44e9-8a3c-ce179a44f6c2")
+			(uuid "0d106616-d318-45f4-80a8-39ca75503e93")
 		)
 		(pad "9" thru_hole rect
 			(at 19.2 -8.7 90)
@@ -4106,7 +4150,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "f947ff59-3231-4963-b835-481cb1cf91e2")
+			(uuid "8fd3fb1a-30fe-4a9d-b356-88a43337da62")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -6.16 90)
@@ -4117,7 +4161,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "c4318729-7090-49da-8755-0524f4b52359")
+			(uuid "218883a6-10cc-4e9d-a459-e8887e668d25")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -3.62 90)
@@ -4128,7 +4172,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "44e3e13d-9317-4447-afc3-7a9028ecf83c")
+			(uuid "0d5922fb-05d4-4f5d-ba80-e1995553a240")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -1.08 90)
@@ -4139,7 +4183,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "34615f9e-347a-4ccc-94ee-51eaa941ce7d")
+			(uuid "39c2655e-a2a5-4304-a992-25366ea41b8c")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 1.46 90)
@@ -4150,7 +4194,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "fd86b5b0-1be5-425c-83ef-350a05fe902b")
+			(uuid "2f38cbe3-2cb9-474f-b4d6-0fed227ed6e1")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 4 90)
@@ -4161,7 +4205,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "0c9aa05f-0ee7-4234-a8fc-7d0ad2303316")
+			(uuid "6be814f7-f421-4727-99e6-9ade24e009b9")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 6.54 90)
@@ -4172,7 +4216,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "bb58d66b-ee60-4084-9a26-bdfc56e7d2fc")
+			(uuid "cbaa57f5-2779-4900-aad8-e5c33eff4db7")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 9.08 90)
@@ -4183,7 +4227,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "db638f8d-ca69-4f14-812a-1eee3d94845f")
+			(uuid "852a8db9-f6bb-443e-a687-6915994042ce")
 		)
 	)
 	(footprint "Fuse:Fuseholder_Blade_Mini_Keystone_3568"
@@ -5595,7 +5639,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a71a2944-9078-4f4f-8cac-a8482d1a351f")
+			(uuid "c640e8e6-c188-48a1-aa68-830403111b80")
 			(effects
 				(font
 					(size 1 1)
@@ -5608,7 +5652,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bfd815e5-ca10-48e0-864b-80fcce4eb5e3")
+			(uuid "f555ed8d-b939-409c-853e-0b3ad0f9ca1a")
 			(effects
 				(font
 					(size 1 1)
@@ -5621,7 +5665,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb19edc4-6ef4-40de-aa60-b8adbc881b7d")
+			(uuid "7860651a-31a1-404b-81fe-bab733c5414d")
 			(effects
 				(font
 					(size 1 1)
@@ -5634,7 +5678,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34ec0163-8d85-4aee-a1a7-251451ed495f")
+			(uuid "28b0d948-b8e1-4893-9f53-ed5c903f0484")
 			(effects
 				(font
 					(size 1 1)
@@ -5647,7 +5691,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7f41dccd-5d8f-4264-ac8f-17103ec15bae")
+			(uuid "3cecd5bf-3914-4937-899e-4be1f412a622")
 			(effects
 				(font
 					(size 1 1)
@@ -5659,6 +5703,17 @@
 		(sheetname "Root")
 		(sheetfile "Impact_driver_controller.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center -36.275 -11.3)
+			(end -35.275 -11.3)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "6add2687-0c71-48bd-8c47-818ed3c03984")
+		)
 		(fp_line
 			(start -38.7 -10.9)
 			(end -38.7 11.1)
@@ -5667,7 +5722,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "f62d9e13-20f1-46e7-8c13-81450ff4c557")
+			(uuid "65a9ce50-2026-4198-94f1-ccc76f7dad72")
 		)
 		(fp_line
 			(start -35.7 14.1)
@@ -5677,7 +5732,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "d9454c04-3719-4043-807e-d2cc3ccde827")
+			(uuid "a75a80dd-f730-46da-bce2-3df4dc2560fd")
 		)
 		(fp_line
 			(start 33.3 -13.9)
@@ -5687,7 +5742,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "945ebb45-ee4c-481d-9612-d94e78649c0f")
+			(uuid "ab7f64b8-8915-4053-911b-2b2247b362fa")
 		)
 		(fp_line
 			(start 36.3 11.1)
@@ -5697,7 +5752,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "4d748d61-4e66-4667-b12d-4f64225679f6")
+			(uuid "90384d17-a89a-4e33-83e6-2aff12b1fc92")
 		)
 		(fp_arc
 			(start -38.7 -10.9)
@@ -5708,7 +5763,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "d7f32826-5b27-4055-a504-72f9fa437eb4")
+			(uuid "135560d4-f4a5-4481-a1d4-12b73c70f2a6")
 		)
 		(fp_arc
 			(start -35.7 14.1)
@@ -5719,7 +5774,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "6f943ea1-4582-4546-bca4-0b084ad4b39e")
+			(uuid "be1f6b86-c868-47f7-9918-8d1ab1177486")
 		)
 		(fp_arc
 			(start 33.3 -13.9)
@@ -5730,7 +5785,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "3c904fe7-0abf-4f99-8143-f35b7ef14bd3")
+			(uuid "8248b536-1517-4246-b79c-522bfefe7441")
 		)
 		(fp_arc
 			(start 36.3 11.1)
@@ -5741,7 +5796,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "5952b4c1-74ba-452e-8abe-df68083d291a")
+			(uuid "21160848-22e1-4e51-adb7-92ff86756c8e")
 		)
 		(pad "1" thru_hole rect
 			(at -36.2 -6.9 180)
@@ -5752,7 +5807,7 @@
 			(net 28 "+VDD")
 			(pinfunction "Vin")
 			(pintype "input")
-			(uuid "044c165c-5285-4dbc-a728-83a1fccb6c38")
+			(uuid "410eac1b-7d53-4f82-9d39-1e4b55b754a2")
 		)
 		(pad "2" thru_hole oval
 			(at -36.2 -4.36 180)
@@ -5763,7 +5818,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "4cd43202-3b31-4204-b258-7540945c1270")
+			(uuid "214d0632-4d41-45bf-999b-53015aba130e")
 		)
 		(pad "3" thru_hole oval
 			(at -36.2 -1.82 180)
@@ -5774,7 +5829,7 @@
 			(net 62 "Net-(U10-SW_MODE)")
 			(pinfunction "SW_MODE")
 			(pintype "passive")
-			(uuid "c16e7528-8310-45f8-a28e-a6e188473ac4")
+			(uuid "1c16aedd-8ff0-432a-9429-bf8bbe54a9f3")
 		)
 		(pad "4" thru_hole oval
 			(at -36.2 0.72 180)
@@ -5785,7 +5840,7 @@
 			(net 49 "Net-(U10-LED_ERR)")
 			(pinfunction "LED_ERR")
 			(pintype "passive")
-			(uuid "6cee07ad-d6e1-45c2-ac7e-236c65ea1ab4")
+			(uuid "1b179453-80cf-4dc8-81eb-169e5f64ea5a")
 		)
 		(pad "5" thru_hole oval
 			(at -36.2 3.26 180)
@@ -5796,7 +5851,7 @@
 			(net 41 "Net-(U10-LED_STATUS)")
 			(pinfunction "LED_STATUS")
 			(pintype "passive")
-			(uuid "599d611b-d921-48fc-bd57-b8bead5a9326")
+			(uuid "db9046cf-3c2e-4ca6-a27e-5fed9557731f")
 		)
 		(pad "6" thru_hole oval
 			(at -36.2 5.8 180)
@@ -5807,7 +5862,7 @@
 			(net 69 "unconnected-(U10-none-Pad6)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "65519e9f-7461-44f2-bf53-3068d5e97423")
+			(uuid "8ca9c59a-dbbc-47c1-8ee6-c56551047068")
 		)
 		(pad "7" thru_hole rect
 			(at 33.8 -6.9 180)
@@ -5818,7 +5873,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+3.3V")
 			(pintype "power_in")
-			(uuid "d7a37ba6-11be-4211-a40b-77da58f1d5c0")
+			(uuid "67aaa506-1303-4891-a6ef-c4e040a7b510")
 		)
 		(pad "8" thru_hole oval
 			(at 33.8 -4.36 180)
@@ -5829,7 +5884,7 @@
 			(net 48 "SDA")
 			(pinfunction "SDA")
 			(pintype "bidirectional")
-			(uuid "b45b43e5-572e-4b37-ac09-71b4a90e0689")
+			(uuid "1f9f1ba3-acb7-435c-a320-15c49b6828e9")
 		)
 		(pad "9" thru_hole oval
 			(at 33.8 -1.82 180)
@@ -5840,7 +5895,7 @@
 			(net 38 "SCL")
 			(pinfunction "SCL")
 			(pintype "bidirectional")
-			(uuid "c7005887-2921-42d1-a0c4-76a73e616b78")
+			(uuid "b6515b92-5dae-4b6a-b224-5988082504e8")
 		)
 		(pad "10" thru_hole oval
 			(at 33.8 0.72 180)
@@ -5851,7 +5906,7 @@
 			(net 4 "AGND")
 			(pinfunction "AGND")
 			(pintype "power_in")
-			(uuid "d2c9d00e-17e4-43ef-8075-70502e5b8195")
+			(uuid "1f4130b7-5a8a-4879-956c-cdaec0a15dd2")
 		)
 		(pad "11" thru_hole oval
 			(at 33.8 3.26 180)
@@ -5862,7 +5917,7 @@
 			(net 51 "Net-(U10-RV_SPEED)")
 			(pinfunction "RV_SPEED")
 			(pintype "passive")
-			(uuid "7d34da05-5118-4616-8f83-aa6de041debc")
+			(uuid "c7b1da27-eb0c-4eed-aab3-2c75cdc351ef")
 		)
 		(pad "12" thru_hole oval
 			(at 33.8 5.8 180)
@@ -5873,7 +5928,7 @@
 			(net 70 "unconnected-(U10-none-Pad12)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "904e8379-2dcf-4e06-b440-1c43b151a9fd")
+			(uuid "b8b56f4b-da79-40f2-91d8-6bdb50e2ae09")
 		)
 	)
 	(footprint "DRV8874_module:DRV8874_module"
@@ -5884,7 +5939,7 @@
 			(at 0 13.1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b74531ee-e5da-41aa-8885-d526e1a70f0a")
+			(uuid "828c34a3-3b37-48bb-bf8c-a7da115ae870")
 			(effects
 				(font
 					(size 1 1)
@@ -5896,7 +5951,7 @@
 			(at 0 14.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "247785de-02b4-4389-8845-03b040302300")
+			(uuid "a779c42f-b957-41fe-b9af-2dedb45cf87d")
 			(effects
 				(font
 					(size 1 1)
@@ -5909,7 +5964,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "342bf6b1-142f-4603-9086-dc621d7ee184")
+			(uuid "aa16f54b-0be6-43c3-b463-995df1f58dec")
 			(effects
 				(font
 					(size 1 1)
@@ -5922,7 +5977,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c8806c7-6f0b-4fa0-a6f2-3fd34bed23f6")
+			(uuid "e0d1f699-8ac6-4142-9c01-4c118e761568")
 			(effects
 				(font
 					(size 1 1)
@@ -5935,7 +5990,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99429aa4-fb20-4726-8bfb-7e9389a960c9")
+			(uuid "1cfc9403-d6d7-4d8c-8c88-849d17754fd6")
 			(effects
 				(font
 					(size 1 1)
@@ -5948,7 +6003,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "17d1d6ef-0bab-4315-9201-a4da3aa37358")
+			(uuid "8e7af87b-287b-45df-9ea8-e7b8cb2116f0")
 			(effects
 				(font
 					(size 1 1)
@@ -5962,7 +6017,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8bd1d0a3-298c-4a39-9156-8ac3348a1e9d")
+			(uuid "72c5c5fa-9c4d-4372-acc5-e333289de5c1")
 			(effects
 				(font
 					(size 1 1)
@@ -5976,7 +6031,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4e0f156b-3d16-4d73-9cbe-d228483519eb")
+			(uuid "122c256b-47cb-497c-b5b5-d562852c36a6")
 			(effects
 				(font
 					(size 1 1)
@@ -5990,7 +6045,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4efc878f-cf98-413f-aef6-22fd0d5ff3fd")
+			(uuid "b60312d9-b3e7-4cac-9212-d622109a582c")
 			(effects
 				(font
 					(size 1 1)
@@ -6004,7 +6059,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "82a71eb8-5ae2-48c9-9203-935d57d90130")
+			(uuid "beb7c8cd-5912-4da5-8113-29f3f67364db")
 			(effects
 				(font
 					(size 1 1)
@@ -6018,7 +6073,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "84a508c3-e48a-45e6-8b4e-13b8f51b590a")
+			(uuid "d339048f-9463-4f1e-943c-7b6f7b72409b")
 			(effects
 				(font
 					(size 1 1)
@@ -6032,7 +6087,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d04884be-6827-4821-be20-483350ed1325")
+			(uuid "4431d93f-4e21-4b81-af66-ad6e647e2432")
 			(effects
 				(font
 					(size 1 1)
@@ -6046,7 +6101,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d72d7cf6-8faf-4d6f-a0de-b22eca6ab8c5")
+			(uuid "09ac8ccd-b0d5-496c-a6ca-5cbf68336617")
 			(effects
 				(font
 					(size 1 1)
@@ -6059,6 +6114,17 @@
 		(sheetname "Drivers")
 		(sheetfile "Drivers.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 16.125 -10.075)
+			(end 17.125 -10.075)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "1a6628bb-5e82-434b-80e5-6dfc848debe8")
+		)
 		(fp_line
 			(start 19.425 11.83)
 			(end -20.575 11.83)
@@ -6067,7 +6133,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "46c85584-be81-4713-b8cf-304f369d96b5")
+			(uuid "36f62583-5112-4e7a-8621-f4efe8b054ae")
 		)
 		(fp_line
 			(start 21.925 9.33)
@@ -6077,7 +6143,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "2994c67a-f80b-468c-8866-71480f4620db")
+			(uuid "7f3a605f-6353-42c6-9a30-f481dcf82a25")
 		)
 		(fp_line
 			(start -23.075 9.325)
@@ -6087,7 +6153,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "354912aa-d4d3-48fb-9dba-14b60d1d1ec2")
+			(uuid "f6e80bcd-51a4-4dfe-9eb5-1cca9b2cd531")
 		)
 		(fp_line
 			(start 21.925 -9.17)
@@ -6097,7 +6163,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "cb7e29dc-393e-4eae-a743-405e07a2dc23")
+			(uuid "538aa5c2-b5c4-42a8-b6b3-20ed24b6d4fc")
 		)
 		(fp_line
 			(start -20.575 -11.67)
@@ -6107,7 +6173,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "1b533816-ebcc-4e50-8e09-32d52d1a856c")
+			(uuid "0ef0a547-6242-4914-8e77-c86f2eb089a0")
 		)
 		(fp_arc
 			(start -20.575 11.825)
@@ -6118,7 +6184,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "088988e8-3d73-4add-a038-af059b136ac2")
+			(uuid "5798f6bd-38cb-4322-aa49-e4756944270a")
 		)
 		(fp_arc
 			(start 21.925 9.33)
@@ -6129,7 +6195,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "f7f63663-9857-4ef2-9e55-4e600f63c131")
+			(uuid "5a07df6a-fdf0-4d69-bea2-4533578fbf59")
 		)
 		(fp_arc
 			(start -23.075 -9.17)
@@ -6140,7 +6206,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "46f7d62c-9bf3-42b4-b6e4-18011af3dca6")
+			(uuid "ffdbb7c0-c6a3-4583-88bc-0a5d70e2e2f1")
 		)
 		(fp_arc
 			(start 19.425 -11.67)
@@ -6151,13 +6217,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "e34e8888-656f-41ef-9c4e-dcc1e5944f87")
+			(uuid "50cbc788-f607-4e0f-b39f-a0761cf2de4a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 16.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "eafb0fe4-5fcb-403d-bbc4-21b581acdbb0")
+			(uuid "736ea519-02de-4cea-bc84-a9d1357dba66")
 			(effects
 				(font
 					(size 1 1)
@@ -6174,7 +6240,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "EN")
 			(pintype "passive")
-			(uuid "93430cc4-d873-4dad-8b62-7dad70dcfa2b")
+			(uuid "47aba6ca-37f5-417c-a057-ba6b02b1011c")
 		)
 		(pad "2" thru_hole oval
 			(at -20.8 6.54 270)
@@ -6185,7 +6251,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "PH")
 			(pintype "passive")
-			(uuid "d5bc6ea9-904f-46f9-b63b-bdb6bd283dde")
+			(uuid "f96b2cc8-5a71-4053-a669-e458caa1da4c")
 		)
 		(pad "3" thru_hole oval
 			(at -20.8 4 270)
@@ -6196,7 +6262,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "SLEEP")
 			(pintype "passive")
-			(uuid "6f82fb53-5839-479c-b3fc-06481a485f32")
+			(uuid "a5a71ed4-e50d-4d19-97e3-2f32d9ce2515")
 		)
 		(pad "4" thru_hole oval
 			(at -20.8 1.46 270)
@@ -6207,7 +6273,7 @@
 			(net 23 "/Drivers/FAULT_5")
 			(pinfunction "FAULT")
 			(pintype "passive")
-			(uuid "f4f44f71-89b2-415a-86f5-1295846ba103")
+			(uuid "6a43be1b-3716-4720-bdd0-0c99ba1c516d")
 		)
 		(pad "5" thru_hole oval
 			(at -20.8 -1.08 270)
@@ -6218,7 +6284,7 @@
 			(net 25 "/Drivers/+Vref")
 			(pinfunction "+Vref")
 			(pintype "passive")
-			(uuid "674f0222-fe97-4153-934a-0bf213f5879d")
+			(uuid "f80f4974-bb1c-438c-9da6-e6f7334c776c")
 		)
 		(pad "6" thru_hole oval
 			(at -20.8 -3.62 270)
@@ -6229,7 +6295,7 @@
 			(net 66 "unconnected-(U8-IPROP-Pad6)")
 			(pinfunction "IPROP")
 			(pintype "passive+no_connect")
-			(uuid "bbe31621-84b8-46ad-b1b8-4b86ce954142")
+			(uuid "6c8da947-da74-4b84-91b7-807eb36f619c")
 		)
 		(pad "7" thru_hole oval
 			(at -20.8 -6.16 270)
@@ -6240,7 +6306,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+Vcc")
 			(pintype "power_in")
-			(uuid "0f518022-56b5-435b-a650-49049618ed7f")
+			(uuid "e11103d9-3e63-478d-8632-15a71f34d90a")
 		)
 		(pad "8" thru_hole oval
 			(at -20.8 -8.7 270)
@@ -6251,7 +6317,7 @@
 			(net 65 "unconnected-(U8-none-Pad8)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "53ba173e-cd5f-4c87-9ffb-ba5718f8bc34")
+			(uuid "7bfae210-fe88-4590-8f0f-f6dcf534a6da")
 		)
 		(pad "9" thru_hole rect
 			(at 19.2 -8.7 90)
@@ -6262,7 +6328,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "5256980b-d646-40c5-a908-fedd09b044bf")
+			(uuid "50686a45-7449-44f9-adb0-f8e24a6a3eda")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -6.16 90)
@@ -6273,7 +6339,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "edbdff31-d955-4944-b588-23695d1632c3")
+			(uuid "d6573d39-1399-4030-b756-70585e7dd9be")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -3.62 90)
@@ -6284,7 +6350,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "d4565d18-1f93-4074-9b63-7bb8aeb45f00")
+			(uuid "cca3690c-8e79-4b63-ab9e-e23a6486181d")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -1.08 90)
@@ -6295,7 +6361,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "93f7d23c-983f-4286-984a-387a154257c7")
+			(uuid "9794efe1-f8f5-4886-8c39-89bfa542ff7d")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 1.46 90)
@@ -6306,7 +6372,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "812b8fd6-50f4-43c4-93cd-c6ac5fc2b1c5")
+			(uuid "8958bc85-5841-44bf-8475-e32bffc939f9")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 4 90)
@@ -6317,7 +6383,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "38d3e500-cbe7-407d-ba0e-05b117f1917e")
+			(uuid "56e75b25-9ab9-4d55-87fe-e5dc15d41dfb")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 6.54 90)
@@ -6328,7 +6394,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "22bbabaa-cf85-45ae-ae22-12e299e23e01")
+			(uuid "78ed8187-08d7-46dd-8598-29ab3dcf7bb1")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 9.08 90)
@@ -6339,7 +6405,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "ddba8916-90ff-4373-bd98-aa41a09bf03b")
+			(uuid "8d921fdf-e555-499a-b1fc-c9dcc5a4a58b")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
@@ -7935,7 +8001,7 @@
 			(at -0.1 35.595 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b0df26c0-4cde-4e1f-932b-4adfda24d82f")
+			(uuid "b5e07b04-3e07-4e57-97ce-3a313d6be97a")
 			(effects
 				(font
 					(size 1 1)
@@ -7947,7 +8013,7 @@
 			(at -0.1 37.095 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1ca08420-eab5-41ef-901e-6f29aba05aaf")
+			(uuid "8ad69c21-9422-407b-aee5-95f837895405")
 			(effects
 				(font
 					(size 1 1)
@@ -7960,7 +8026,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a5f26a6-cfdd-4747-9b8f-eca083aedfc6")
+			(uuid "97d02ead-e324-4f3f-9fb3-e84bb596d505")
 			(effects
 				(font
 					(size 1 1)
@@ -7973,7 +8039,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6e09447b-f6c4-4fef-8a78-5369ed5413de")
+			(uuid "b90310d6-addd-41b6-8b19-d3fb20589aed")
 			(effects
 				(font
 					(size 1 1)
@@ -7986,7 +8052,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1d548d5c-9b4d-45bb-b4ed-5a1c4c829e3c")
+			(uuid "3bd87a76-b411-4cea-8c33-e91fd29daafa")
 			(effects
 				(font
 					(size 1 1)
@@ -7998,6 +8064,17 @@
 		(sheetname "Root")
 		(sheetfile "Impact_driver_controller.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 14.15 30.925)
+			(end 15.15 30.925)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "5b5cd509-0562-44d8-8654-98aac79aebd1")
+		)
 		(fp_line
 			(start 16.77 -30.8)
 			(end -16.55 -30.8)
@@ -8006,7 +8083,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "1c101182-acc3-40e5-88f7-f6a786d6656c")
+			(uuid "961e0155-4267-4e2c-86f4-6ef82adf66ce")
 		)
 		(fp_line
 			(start -16.55 -30.8)
@@ -8016,7 +8093,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "aa12c12b-04dd-47af-b640-0d73bf69a62e")
+			(uuid "b971fcf8-45be-45cb-a366-44582430f645")
 		)
 		(fp_line
 			(start 16.77 30.29)
@@ -8026,7 +8103,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "42c34434-9006-41ad-a01a-b0040bc0d95b")
+			(uuid "6a3883dc-c397-4b68-bc7a-b6965a7c86e0")
 		)
 		(fp_line
 			(start -13.55 33.28)
@@ -8036,7 +8113,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "6d4ef8d4-0e5f-4418-a939-7377f1eaa1f6")
+			(uuid "409f69f1-8993-4ee3-94d5-b92e0283b6b6")
 		)
 		(fp_arc
 			(start 16.77 30.29)
@@ -8047,7 +8124,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "286acbdf-489b-48fe-97de-c8c47273285e")
+			(uuid "f6678f06-97d9-46cc-9d8b-010bf4d62ff5")
 		)
 		(fp_arc
 			(start -13.55 33.28)
@@ -8058,13 +8135,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "a20daaa9-f394-4cef-b4ea-e3d098f40b11")
+			(uuid "27418261-3734-450a-aac2-d8c3eef51d62")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.1 38.595 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "bc9734f2-86b5-4f6a-93c1-09e0bc3749c0")
+			(uuid "b3a89b1a-3343-457b-8b7c-31bb6d571f9c")
 			(effects
 				(font
 					(size 1 1)
@@ -8081,7 +8158,7 @@
 			(net 54 "unconnected-(U6-GPIO0-Pad1)")
 			(pinfunction "GPIO0")
 			(pintype "bidirectional+no_connect")
-			(uuid "d50335c5-42b7-4c20-85ca-96cedde477ef")
+			(uuid "cdac0e6f-b39f-49a8-af15-fd734480350a")
 		)
 		(pad "2" thru_hole oval
 			(at -12.9 -26.84 270)
@@ -8092,7 +8169,7 @@
 			(net 58 "unconnected-(U6-GPIO1-Pad2)")
 			(pinfunction "GPIO1")
 			(pintype "bidirectional+no_connect")
-			(uuid "696fea5f-db50-4abd-97d4-143ee0efe63f")
+			(uuid "0338c0e4-08e8-4423-a102-41691351dc6e")
 		)
 		(pad "3" thru_hole oval
 			(at -12.9 -24.3 270)
@@ -8103,7 +8180,7 @@
 			(net 55 "unconnected-(U6-GND-Pad3)")
 			(pinfunction "GND")
 			(pintype "power_in+no_connect")
-			(uuid "c081ca7c-9cfa-48e3-95ee-668d603a2c81")
+			(uuid "80935501-11a8-4483-8bbf-45f7d21e74f2")
 		)
 		(pad "4" thru_hole oval
 			(at -12.9 -21.76 270)
@@ -8114,7 +8191,7 @@
 			(net 42 "unconnected-(U6-GPIO2-Pad4)")
 			(pinfunction "GPIO2")
 			(pintype "bidirectional+no_connect")
-			(uuid "c74bd141-5c32-4bb6-b8c8-54353d04a18b")
+			(uuid "ed509f31-2a93-405a-a6a9-562982a560c4")
 		)
 		(pad "5" thru_hole oval
 			(at -12.9 -19.22 270)
@@ -8125,7 +8202,7 @@
 			(net 53 "unconnected-(U6-GPIO3-Pad5)")
 			(pinfunction "GPIO3")
 			(pintype "bidirectional+no_connect")
-			(uuid "60020a07-a5d1-43a3-8bae-42f73d168242")
+			(uuid "f0f77bad-520c-461a-9c09-0537f9e9fef9")
 		)
 		(pad "6" thru_hole oval
 			(at -12.9 -16.68 270)
@@ -8136,7 +8213,7 @@
 			(net 48 "SDA")
 			(pinfunction "GPIO4")
 			(pintype "bidirectional")
-			(uuid "d511e2ab-9093-4cfb-b274-4580a1d40557")
+			(uuid "26126fd7-7822-42ff-865a-65c08fcac492")
 		)
 		(pad "7" thru_hole oval
 			(at -12.9 -14.14 270)
@@ -8147,7 +8224,7 @@
 			(net 38 "SCL")
 			(pinfunction "GPIO5")
 			(pintype "bidirectional")
-			(uuid "2cf0fb0c-21e4-4bde-8e50-17b72014c2fb")
+			(uuid "def05f50-307e-4c53-99a9-e18879296a60")
 		)
 		(pad "8" thru_hole oval
 			(at -12.9 -11.6 270)
@@ -8158,7 +8235,7 @@
 			(net 43 "unconnected-(U6-GND-Pad8)")
 			(pinfunction "GND")
 			(pintype "power_in+no_connect")
-			(uuid "a8d24c88-5692-416c-8a01-0b2875890e52")
+			(uuid "37b49a72-2341-458a-9f2c-ee490f2add7c")
 		)
 		(pad "9" thru_hole oval
 			(at -12.9 -9.06 270)
@@ -8169,7 +8246,7 @@
 			(net 52 "unconnected-(U6-GPIO6-Pad9)")
 			(pinfunction "GPIO6")
 			(pintype "bidirectional+no_connect")
-			(uuid "32a11e01-3b85-45a5-8f72-8e254b063c81")
+			(uuid "88eb0ad4-939b-48fb-bc26-faf3995c06ef")
 		)
 		(pad "10" thru_hole oval
 			(at -12.9 -6.52 270)
@@ -8180,7 +8257,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "GPIO7")
 			(pintype "bidirectional")
-			(uuid "38791e8f-d850-4044-91d5-62e63995be9f")
+			(uuid "0ffdec47-15b5-4afc-9e7b-3f28b7a770de")
 		)
 		(pad "11" thru_hole oval
 			(at -12.9 -3.98 270)
@@ -8191,7 +8268,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "GPIO8")
 			(pintype "bidirectional")
-			(uuid "3cf812d8-7d40-4a23-a163-de56a11b35da")
+			(uuid "5eb2db8b-2c5e-4415-a256-f9c34fc59117")
 		)
 		(pad "12" thru_hole oval
 			(at -12.9 -1.44 270)
@@ -8202,7 +8279,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "GPIO9")
 			(pintype "bidirectional")
-			(uuid "d416ce2d-79d5-4354-80ae-eaf10437e4c4")
+			(uuid "f6be7384-c30c-494f-a730-143a62c7eabb")
 		)
 		(pad "13" thru_hole oval
 			(at -12.9 1.1 270)
@@ -8213,7 +8290,7 @@
 			(net 47 "unconnected-(U6-GND-Pad13)")
 			(pinfunction "GND")
 			(pintype "power_in+no_connect")
-			(uuid "bd9d77dc-48a6-404b-94af-3c03a7135822")
+			(uuid "a66443a7-a375-400d-85dc-ed6d291c4fa9")
 		)
 		(pad "14" thru_hole oval
 			(at -12.9 3.64 270)
@@ -8224,7 +8301,7 @@
 			(net 19 "/Drivers/FAULT_1")
 			(pinfunction "GPIO10")
 			(pintype "bidirectional")
-			(uuid "40fdd1d5-244e-442f-8184-ba1e69c63458")
+			(uuid "6f2451db-5d84-484b-b700-a2ca5deb0d6d")
 		)
 		(pad "15" thru_hole oval
 			(at -12.9 6.18 270)
@@ -8235,7 +8312,7 @@
 			(net 20 "/Drivers/FAULT_2")
 			(pinfunction "GPIO11")
 			(pintype "bidirectional")
-			(uuid "f0bd6294-3ef1-4dd5-bb2b-927e7775ca35")
+			(uuid "602a2e66-c9c0-4402-aa21-444ee1ea6200")
 		)
 		(pad "16" thru_hole oval
 			(at -12.9 8.72 270)
@@ -8246,7 +8323,7 @@
 			(net 21 "/Drivers/FAULT_3")
 			(pinfunction "GPIO12")
 			(pintype "bidirectional")
-			(uuid "e009cac2-34d4-4110-ba73-4cd107161b5d")
+			(uuid "ed8f8657-49c9-4d2f-8f5b-8b2cfed2d473")
 		)
 		(pad "17" thru_hole oval
 			(at -12.9 11.26 270)
@@ -8257,7 +8334,7 @@
 			(net 22 "/Drivers/FAULT_4")
 			(pinfunction "GPIO13")
 			(pintype "bidirectional")
-			(uuid "0c0a9739-b906-47ab-a263-14c4e31e5065")
+			(uuid "37d719b4-8034-477a-b975-0bdfbde70a4f")
 		)
 		(pad "18" thru_hole oval
 			(at -12.9 13.8 270)
@@ -8268,7 +8345,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "99f45a86-e101-423e-a730-dd296e47dc2f")
+			(uuid "3fd3857e-ff5c-4a54-a708-2b1b6ed379bb")
 		)
 		(pad "19" thru_hole oval
 			(at -12.9 16.34 270)
@@ -8279,7 +8356,7 @@
 			(net 23 "/Drivers/FAULT_5")
 			(pinfunction "GPIO14")
 			(pintype "bidirectional")
-			(uuid "82ee05d5-e743-4efd-bfa1-6dd12db4e4bc")
+			(uuid "c259c10a-9ae2-4175-9dbf-8b86591159ea")
 		)
 		(pad "20" thru_hole oval
 			(at -12.9 18.88 270)
@@ -8290,7 +8367,7 @@
 			(net 24 "/Drivers/FAULT_6")
 			(pinfunction "GPIO15")
 			(pintype "bidirectional")
-			(uuid "a6dc71e2-0e17-4cfa-8da8-8ca0afbe13d2")
+			(uuid "e387407b-e56d-48f9-80f9-73708f3d9dce")
 		)
 		(pad "21" thru_hole oval
 			(at 13.1 18.88 270)
@@ -8301,7 +8378,7 @@
 			(net 49 "Net-(U10-LED_ERR)")
 			(pinfunction "GPIO16")
 			(pintype "bidirectional")
-			(uuid "24c8f642-c2be-4bc5-aaaf-e24a76ddaa30")
+			(uuid "d581305d-8169-4df4-98cc-e4830eae2de8")
 		)
 		(pad "22" thru_hole oval
 			(at 13.1 16.34 270)
@@ -8312,7 +8389,7 @@
 			(net 41 "Net-(U10-LED_STATUS)")
 			(pinfunction "GPIO17")
 			(pintype "bidirectional")
-			(uuid "72fa970a-172f-4e00-84b7-a8ab8707f02d")
+			(uuid "7b72d4e5-5c60-425e-9e5c-be60c0304fa1")
 		)
 		(pad "23" thru_hole oval
 			(at 13.1 13.8 270)
@@ -8323,7 +8400,7 @@
 			(net 44 "unconnected-(U6-GND-Pad23)")
 			(pinfunction "GND")
 			(pintype "power_in+no_connect")
-			(uuid "c15c936c-89b2-4a12-83d0-b0a9e886dcbb")
+			(uuid "25bb2502-246b-40b7-93ad-748589f44240")
 		)
 		(pad "24" thru_hole oval
 			(at 13.1 11.26 270)
@@ -8334,7 +8411,7 @@
 			(net 62 "Net-(U10-SW_MODE)")
 			(pinfunction "GPIO18")
 			(pintype "bidirectional")
-			(uuid "c772d234-2cde-42d9-93fb-5fa17453cf04")
+			(uuid "2baf90c2-671e-408b-b6ef-96d5d0b77468")
 		)
 		(pad "25" thru_hole oval
 			(at 13.1 8.72 270)
@@ -8345,7 +8422,7 @@
 			(net 39 "unconnected-(U6-GPIO19-Pad25)")
 			(pinfunction "GPIO19")
 			(pintype "bidirectional+no_connect")
-			(uuid "60230e84-3e7a-4aaa-89f9-f33eb529cfb2")
+			(uuid "bc226d8e-f28a-4848-90e6-43d53b69202c")
 		)
 		(pad "26" thru_hole oval
 			(at 13.1 6.18 270)
@@ -8356,7 +8433,7 @@
 			(net 46 "unconnected-(U6-GPIO20-Pad26)")
 			(pinfunction "GPIO20")
 			(pintype "bidirectional+no_connect")
-			(uuid "1ed363b4-babf-4f2f-a048-6007f48322f5")
+			(uuid "0ed92e5b-136b-4945-988e-37dbcd332a3e")
 		)
 		(pad "27" thru_hole oval
 			(at 13.1 3.64 270)
@@ -8367,7 +8444,7 @@
 			(net 50 "unconnected-(U6-GPIO21-Pad27)")
 			(pinfunction "GPIO21")
 			(pintype "bidirectional+no_connect")
-			(uuid "4ef00d30-06d4-44dc-8334-a5aa9546c03c")
+			(uuid "11963761-92fe-4d3e-abed-418dd9b019aa")
 		)
 		(pad "28" thru_hole oval
 			(at 13.1 1.1 270)
@@ -8378,7 +8455,7 @@
 			(net 59 "unconnected-(U6-GND-Pad28)")
 			(pinfunction "GND")
 			(pintype "power_in+no_connect")
-			(uuid "ad03fe35-097f-43bf-a7c8-538f3f284af8")
+			(uuid "a4769e11-4aed-4586-a458-1a4265e59381")
 		)
 		(pad "29" thru_hole oval
 			(at 13.1 -1.44 270)
@@ -8389,7 +8466,7 @@
 			(net 61 "unconnected-(U6-GPIO22-Pad29)")
 			(pinfunction "GPIO22")
 			(pintype "bidirectional+no_connect")
-			(uuid "354b94ba-76d4-4020-8924-e3cb863e0065")
+			(uuid "b20ed31d-7155-49b4-a192-b677244aa415")
 		)
 		(pad "30" thru_hole oval
 			(at 13.1 -3.98 270)
@@ -8400,7 +8477,7 @@
 			(net 40 "unconnected-(U6-none-Pad30)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "e9c0f4a2-0fb3-4581-b6a7-5cedb4af8777")
+			(uuid "0b62daba-0ece-4986-bff0-932319c2ee4e")
 		)
 		(pad "31" thru_hole oval
 			(at 13.1 -6.52 270)
@@ -8411,7 +8488,7 @@
 			(net 60 "unconnected-(U6-F0-Pad31)")
 			(pinfunction "F0")
 			(pintype "bidirectional+no_connect")
-			(uuid "6ba56ee8-1991-48f5-a590-a0ed3a5ba541")
+			(uuid "939451b2-c52c-496c-aca9-8bfccf6daa5c")
 		)
 		(pad "32" thru_hole oval
 			(at 13.1 -9.06 270)
@@ -8422,7 +8499,7 @@
 			(net 51 "Net-(U10-RV_SPEED)")
 			(pinfunction "F1")
 			(pintype "bidirectional")
-			(uuid "d38cf047-239e-45f3-a921-91fb4a075b8a")
+			(uuid "359dc31f-495e-41e0-aea3-24f02cdac665")
 		)
 		(pad "33" thru_hole oval
 			(at 13.1 -11.6 270)
@@ -8433,7 +8510,7 @@
 			(net 4 "AGND")
 			(pinfunction "AGND")
 			(pintype "power_in")
-			(uuid "4763f43f-6084-4737-afbb-aa4640e2865a")
+			(uuid "69a606b9-0471-44ba-9e60-6034f23bcd58")
 		)
 		(pad "34" thru_hole oval
 			(at 13.1 -14.14 270)
@@ -8444,7 +8521,7 @@
 			(net 17 "/Current probe/I_MEAS")
 			(pinfunction "F2")
 			(pintype "bidirectional")
-			(uuid "883f369c-9cfc-4b39-8983-c090f0f7c116")
+			(uuid "d0249382-ac1c-4fcf-b8b1-94fe4895f471")
 		)
 		(pad "35" thru_hole oval
 			(at 13.1 -16.68 270)
@@ -8455,7 +8532,7 @@
 			(net 56 "unconnected-(U6-ADC_VREF-Pad35)")
 			(pinfunction "ADC_VREF")
 			(pintype "power_in+no_connect")
-			(uuid "39ece234-3ed4-4dfe-9c5d-a291d06a8f45")
+			(uuid "b2a55a54-ade9-47a0-842d-1bf08cdff3b6")
 		)
 		(pad "36" thru_hole oval
 			(at 13.1 -19.22 270)
@@ -8466,7 +8543,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "3V3")
 			(pintype "power_in")
-			(uuid "c8d5e509-34ad-4d80-8dc7-59abf148f162")
+			(uuid "faf12b4f-3f26-482e-8e86-44a0f7dca4f8")
 		)
 		(pad "37" thru_hole oval
 			(at 13.1 -21.76 270)
@@ -8477,7 +8554,7 @@
 			(net 37 "unconnected-(U6-3V3_EN-Pad37)")
 			(pinfunction "3V3_EN")
 			(pintype "input+no_connect")
-			(uuid "6cde24db-d964-48fb-9fea-58ee8d0d66fb")
+			(uuid "dd1add22-f837-4de1-9d1a-d006ad9ef3de")
 		)
 		(pad "38" thru_hole oval
 			(at 13.1 -24.3 270)
@@ -8488,7 +8565,7 @@
 			(net 45 "unconnected-(U6-GND-Pad38)")
 			(pinfunction "GND")
 			(pintype "bidirectional+no_connect")
-			(uuid "5c3a1cd9-e8d6-4275-85a9-6de59d655197")
+			(uuid "79ace47c-f17d-4a5a-a86b-9e1ce51f9ed0")
 		)
 		(pad "39" thru_hole oval
 			(at 13.1 -26.84 270)
@@ -8499,7 +8576,7 @@
 			(net 5 "+5V")
 			(pinfunction "+5V")
 			(pintype "power_in")
-			(uuid "045f89a1-c10c-41e5-a05e-5b6d1f8ea1e4")
+			(uuid "fbfb9784-f12d-4bef-9e9e-c979e1d2d481")
 		)
 		(pad "40" thru_hole rect
 			(at 13.1 -29.38 270)
@@ -8510,7 +8587,7 @@
 			(net 57 "unconnected-(U6-none-Pad40)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "bb189140-eef7-40f0-91a0-eb6142a9f82d")
+			(uuid "22a70fd7-72a3-4d2d-9abb-14c7e18e9e3b")
 		)
 	)
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-40_Kemet-Y_Pad2.25x2.55mm_HandSolder"
@@ -11627,7 +11704,7 @@
 			(at 0 13.1 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e66787b5-ff5a-4d6e-9890-b834d1f3214b")
+			(uuid "fd6847f1-2a45-422d-8a95-94facbd4b3e3")
 			(effects
 				(font
 					(size 1 1)
@@ -11639,7 +11716,7 @@
 			(at 0 14.6 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "935c71d5-b03d-4443-a5a0-ee5d1b307e71")
+			(uuid "cb363368-ccf5-4dbf-848d-f114429a335f")
 			(effects
 				(font
 					(size 1 1)
@@ -11652,7 +11729,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c329e58-187c-4442-8047-b4a389e02f42")
+			(uuid "faa22886-47d8-411e-9db7-d4eb9541ace2")
 			(effects
 				(font
 					(size 1 1)
@@ -11665,7 +11742,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10c2eaf2-8a4c-436d-a51c-237a2d8d66e9")
+			(uuid "e0a845c9-4d94-4163-bb27-8e8b66dcd1a1")
 			(effects
 				(font
 					(size 1 1)
@@ -11678,7 +11755,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eb2311ee-9d05-48db-9977-a872f87210b8")
+			(uuid "c0682570-18d1-40db-96d1-ec59bcc023e6")
 			(effects
 				(font
 					(size 1 1)
@@ -11691,7 +11768,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f609771a-6188-4b45-861a-eaa79839f855")
+			(uuid "3f67141d-2370-4c17-be4b-b3a144e5e4f1")
 			(effects
 				(font
 					(size 1 1)
@@ -11705,7 +11782,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "52073023-4aeb-48d9-950f-692e991526c4")
+			(uuid "96092972-8722-4451-b132-74c084c4eb93")
 			(effects
 				(font
 					(size 1 1)
@@ -11719,7 +11796,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2f0c704e-663c-4eb2-9a88-061112d47fe4")
+			(uuid "bcc305a0-62dc-4220-9c05-4656044b952b")
 			(effects
 				(font
 					(size 1 1)
@@ -11733,7 +11810,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "be107a2c-3c52-4f83-ae01-943ad8fc3467")
+			(uuid "602ba951-fe55-480e-9796-c1b4566abb47")
 			(effects
 				(font
 					(size 1 1)
@@ -11747,7 +11824,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a3c92181-ab3a-4221-9abc-0c224a550a44")
+			(uuid "51b991f1-10be-45c1-83dd-ce55e6e27ff7")
 			(effects
 				(font
 					(size 1 1)
@@ -11761,7 +11838,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6a50eaf8-9868-4102-87d6-f260da003421")
+			(uuid "8f671344-b8f1-4eb0-b78f-71cd43f14faa")
 			(effects
 				(font
 					(size 1 1)
@@ -11775,7 +11852,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8e18f18e-e52c-4b23-a8ae-e0e906148967")
+			(uuid "1c66a3fe-3ed1-4cd8-9c79-445ebf15638c")
 			(effects
 				(font
 					(size 1 1)
@@ -11789,7 +11866,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5847cf32-7067-4044-99a2-9b9cc27a07e6")
+			(uuid "a8c10dec-f1ce-4fec-bed3-dd3d28ee4b28")
 			(effects
 				(font
 					(size 1 1)
@@ -11802,6 +11879,17 @@
 		(sheetname "Drivers")
 		(sheetfile "Drivers.kicad_sch")
 		(attr through_hole)
+		(fp_circle
+			(center 16.125 -10.075)
+			(end 17.125 -10.075)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "8425eaf5-ebdd-494f-8cec-ecd0615c1a52")
+		)
 		(fp_line
 			(start 19.425 11.83)
 			(end -20.575 11.83)
@@ -11810,7 +11898,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "bcba8467-a423-47e5-bd70-4cf5d9ee57e4")
+			(uuid "7aadadbb-2d46-4a6a-8762-e8b95de768f4")
 		)
 		(fp_line
 			(start 21.925 9.33)
@@ -11820,7 +11908,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "da3cb9d4-28c1-4ed3-b2fb-d04d593d518c")
+			(uuid "80b8bc56-25be-4435-b96d-6197f5cdc567")
 		)
 		(fp_line
 			(start -23.075 9.325)
@@ -11830,7 +11918,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "8ac71f7f-13c5-472e-909a-8111065adac9")
+			(uuid "dae90a9d-37cd-4e62-ab00-df37852552ef")
 		)
 		(fp_line
 			(start 21.925 -9.17)
@@ -11840,7 +11928,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "7998e97c-4a22-471d-aa98-fcbedf45b23f")
+			(uuid "0f62d9ce-7752-4d30-acc2-a61ffed6ac12")
 		)
 		(fp_line
 			(start -20.575 -11.67)
@@ -11850,7 +11938,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "03877905-40c1-4c9e-92a4-22eb89b3b061")
+			(uuid "a977b811-6705-4f39-8dd1-758b5a63fe1f")
 		)
 		(fp_arc
 			(start -20.575 11.825)
@@ -11861,7 +11949,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "eed50e6c-2738-4ad2-a08d-96e432d38f25")
+			(uuid "b9327e44-88d9-4f28-980f-9743419ef8ee")
 		)
 		(fp_arc
 			(start 21.925 9.33)
@@ -11872,7 +11960,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "2311216d-ed0e-4a14-b68b-55703f263faf")
+			(uuid "076f243e-8d55-43ac-8bec-e80567891af5")
 		)
 		(fp_arc
 			(start -23.075 -9.17)
@@ -11883,7 +11971,7 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "3b40681c-5dd4-4f5c-b15b-8ec891dcf00e")
+			(uuid "8399ac28-65bb-4b3b-a0f8-14fda98f02ea")
 		)
 		(fp_arc
 			(start 19.425 -11.67)
@@ -11894,13 +11982,13 @@
 				(type default)
 			)
 			(layer "F.Fab")
-			(uuid "730d3c13-c3b5-4cc6-a1fb-dfbe42523571")
+			(uuid "b24a6d8c-17c2-41d0-befc-f77d4efeae5d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 16.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "80419e21-28dd-4552-a40d-667cd0db8f0f")
+			(uuid "ef7385c4-bfc2-420d-8167-da00ba107d6e")
 			(effects
 				(font
 					(size 1 1)
@@ -11917,7 +12005,7 @@
 			(net 31 "/Drivers/EN")
 			(pinfunction "EN")
 			(pintype "passive")
-			(uuid "f84bb6c3-d936-47f8-a66e-fae471c4eac8")
+			(uuid "990924c0-e4b4-4c75-b376-eb9f42babfdb")
 		)
 		(pad "2" thru_hole oval
 			(at -20.8 6.54 270)
@@ -11928,7 +12016,7 @@
 			(net 30 "/Drivers/PH")
 			(pinfunction "PH")
 			(pintype "passive")
-			(uuid "8406fbfe-b333-4687-8a7d-854fec8ba672")
+			(uuid "7ec22d81-168b-4bde-8fd5-60e55310429f")
 		)
 		(pad "3" thru_hole oval
 			(at -20.8 4 270)
@@ -11939,7 +12027,7 @@
 			(net 32 "/Drivers/SLEEP")
 			(pinfunction "SLEEP")
 			(pintype "passive")
-			(uuid "e2957a5c-d1ca-470e-b978-7f8bef2526cc")
+			(uuid "2c9d6e74-d50e-48db-a559-fd461511b829")
 		)
 		(pad "4" thru_hole oval
 			(at -20.8 1.46 270)
@@ -11950,7 +12038,7 @@
 			(net 22 "/Drivers/FAULT_4")
 			(pinfunction "FAULT")
 			(pintype "passive")
-			(uuid "cb8d65c5-6c5e-4ed0-a4ef-dc7a7eba9e91")
+			(uuid "d9f17882-88ef-4433-a045-175aa4f93f0b")
 		)
 		(pad "5" thru_hole oval
 			(at -20.8 -1.08 270)
@@ -11961,7 +12049,7 @@
 			(net 25 "/Drivers/+Vref")
 			(pinfunction "+Vref")
 			(pintype "passive")
-			(uuid "b57d22af-ec7e-4bfc-a3fe-b09c9b8d43e2")
+			(uuid "923bdfc0-6d98-4a11-8fd4-51a50eece9a6")
 		)
 		(pad "6" thru_hole oval
 			(at -20.8 -3.62 270)
@@ -11972,7 +12060,7 @@
 			(net 64 "unconnected-(U7-IPROP-Pad6)")
 			(pinfunction "IPROP")
 			(pintype "passive+no_connect")
-			(uuid "fb929f91-56cf-4fc3-9df7-82ea8e0fcf37")
+			(uuid "de6e7155-6001-4ebf-b06e-7a3e26e80370")
 		)
 		(pad "7" thru_hole oval
 			(at -20.8 -6.16 270)
@@ -11983,7 +12071,7 @@
 			(net 26 "+3.3V")
 			(pinfunction "+Vcc")
 			(pintype "power_in")
-			(uuid "f1d28783-def9-4de8-b22c-07433f44cd99")
+			(uuid "692ce758-1c58-4b21-880d-1df3d26c3931")
 		)
 		(pad "8" thru_hole oval
 			(at -20.8 -8.7 270)
@@ -11994,7 +12082,7 @@
 			(net 63 "unconnected-(U7-none-Pad8)")
 			(pinfunction "none")
 			(pintype "no_connect")
-			(uuid "34274fba-0469-465f-ae6f-6420b47eaf77")
+			(uuid "d5fde730-3673-4103-b991-29eeebd3e41d")
 		)
 		(pad "9" thru_hole rect
 			(at 19.2 -8.7 90)
@@ -12005,7 +12093,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "08dba90f-c29f-4121-9824-a91a57518459")
+			(uuid "027f572a-867b-42fe-b03b-74a4f108565c")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -6.16 90)
@@ -12016,7 +12104,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "24d30bea-2b52-4741-926a-8c247a89411f")
+			(uuid "4ff5052f-668e-4980-a38c-93b1f67f93ba")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -3.62 90)
@@ -12027,7 +12115,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "e7d68a33-0d9a-4c7f-9d51-56951ebd989b")
+			(uuid "593d42fd-ad39-4ad6-8954-888e9655aafc")
 		)
 		(pad "9" thru_hole oval
 			(at 19.2 -1.08 90)
@@ -12038,7 +12126,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "f90a3416-7ac6-428a-93e1-5c7a7d857a1f")
+			(uuid "41ee765a-b2de-40cc-aa87-e6584a26c00f")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 1.46 90)
@@ -12049,7 +12137,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "116f6922-b987-44c7-a299-1a683569d9e6")
+			(uuid "2704005f-a031-4f5d-bdcf-49520c701b22")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 4 90)
@@ -12060,7 +12148,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "a6087e8d-be9d-40e5-9e98-3c252d2ebfae")
+			(uuid "48a01c5c-cbb7-49c7-858f-76249c2c4bb7")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 6.54 90)
@@ -12071,7 +12159,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "fa6bc84b-9b88-4648-8550-ea954f60f807")
+			(uuid "b8b6a4cb-84c4-4883-997d-66b30f40c021")
 		)
 		(pad "10" thru_hole oval
 			(at 19.2 9.08 90)
@@ -12082,7 +12170,7 @@
 			(net 28 "+VDD")
 			(pinfunction "VIN")
 			(pintype "power_in")
-			(uuid "c30b5c99-2879-43ea-a296-602e338b7508")
+			(uuid "7c280327-e741-469b-b5ef-3f58a2b3cb62")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
