@@ -1802,7 +1802,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "78-VLMG1300-GS08"
+		(property "Description" ""
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 134.62 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-VLMG1300-GS08"
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -1872,7 +1890,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "512-SS34"
+		(property "Description" ""
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "512-SS34"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -1941,7 +1977,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80-T491X107M25ATAUTO"
+		(property "Description" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 74.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-T491X107M25ATAUTO"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -2011,7 +2065,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "534-3568"
+		(property "Description" ""
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 74.93 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-3568"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -2079,7 +2151,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-1.0K-E3"
+		(property "Description" ""
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -2149,7 +2239,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80-C1206C474K5RAULR"
+		(property "Description" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C1206C474K5RAULR"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -2284,7 +2392,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "511-L78M05CDT-TR"
+		(property "Description" ""
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 104.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-L78M05CDT-TR"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -2423,7 +2549,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80-C0603C104K5RAUTO"
+		(property "Description" ""
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C104K5RAUTO"
 			(at 118.11 76.2 0)
 			(effects
 				(font

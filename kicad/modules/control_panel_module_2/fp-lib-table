@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SSD1306_CPM")(type "KiCad")(uri "${KIPRJMOD}/libs/SSD1306/SSD1306.pretty")(options "")(descr ""))
+  (lib (name "modules")(type "KiCad")(uri "C:/Users/marti/Documents/GitHub/Impact_driver_controller/kicad/Impact_driver_controller/libs/modules.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/marti/Documents/GitHub/Impact_driver_controller/kicad/Impact_driver_controller/libs/modules/Library.pretty")(options "")(descr ""))
+)

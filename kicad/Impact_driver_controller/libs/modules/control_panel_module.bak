@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -1.27 -7.62 0)
+		(property "Value" "Control_panel_module"
+			(at 0 9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,14 +59,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(text "Control panel module"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(pin input line

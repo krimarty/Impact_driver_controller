@@ -533,7 +533,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "78-VLMG1300-GS08"
+		(property "Description" ""
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "78-VLMG1300-GS08"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -602,7 +620,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "78-VLMO1300-GS08"
+		(property "Description" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "78-VLMO1300-GS08"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -738,7 +774,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-1.0K-E3"
+		(property "Description" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "71-CRCW0603-1.0K-E3"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -808,7 +862,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-1.0K-E3"
+		(property "Description" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "71-CRCW0603-1.0K-E3"
 			(at 118.11 59.69 0)
 			(effects
 				(font
@@ -943,7 +1015,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "78-VLMS1300-GS08"
+		(property "Description" ""
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "78-VLMS1300-GS08"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -1013,7 +1103,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-1.0K-E3"
+		(property "Description" ""
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "71-CRCW0603-1.0K-E3"
 			(at 85.09 59.69 0)
 			(effects
 				(font

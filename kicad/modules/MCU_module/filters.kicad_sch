@@ -582,7 +582,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-10K-E3"
+		(property "Description" ""
+			(at 96.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 96.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "71-CRCW0603-10K-E3"
 			(at 96.52 29.21 0)
 			(effects
 				(font
@@ -652,7 +670,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80-C1206C105K5RAUTO"
+		(property "Description" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "80-C1206C105K5RAUTO"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -719,7 +755,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-10K-E3"
+		(property "Description" ""
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "71-CRCW0603-10K-E3"
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -789,7 +843,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "77-VJ0603Y332KXBAC"
 			(at 106.68 58.42 0)
 			(effects
 				(font
@@ -856,7 +928,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-10K-E3"
+		(property "Description" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "71-CRCW0603-10K-E3"
 			(at 96.52 53.34 0)
 			(effects
 				(font
@@ -926,7 +1016,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80-C1206C105K5RAUTO"
+		(property "Description" ""
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "80-C1206C105K5RAUTO"
 			(at 106.68 82.55 0)
 			(effects
 				(font

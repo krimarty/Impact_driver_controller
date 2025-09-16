@@ -1028,7 +1028,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-10K-E3"
+		(property "Description" ""
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
 			(at 123.19 78.74 0)
 			(effects
 				(font
@@ -1098,7 +1116,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-10K-E3"
+		(property "Description" ""
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 123.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -1168,7 +1204,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "80-C0603C102J2TAUTO"
+		(property "Description" ""
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-C0603C102J2TAUTO"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -1370,7 +1424,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "71-CRCW0603-10K-E3"
+		(property "Description" ""
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW0603-10K-E3"
 			(at 123.19 69.85 0)
 			(effects
 				(font
@@ -1442,7 +1514,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "250-712ELCTR30AT"
+		(property "Description" ""
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "250-712ELCTR30AT"
 			(at 86.36 52.07 0)
 			(effects
 				(font

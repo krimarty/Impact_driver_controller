@@ -100,7 +100,7 @@
 			(pin passive line
 				(at 17.78 -3.81 180)
 				(length 2.54)
-				(name "RV_SPEED"
+				(name "RV1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -115,10 +115,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 17.78 -6.35 180)
 				(length 2.54)
-				(name "none"
+				(name "RV2"
 					(effects
 						(font
 							(size 1.27 1.27)

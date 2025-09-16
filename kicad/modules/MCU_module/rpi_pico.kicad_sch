@@ -2813,7 +2813,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RPI Pico 2"
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" ""
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -3137,7 +3155,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "179-TS0925WT160SMTTR"
+		(property "Description" ""
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "179-TS0925WT160SMTTR"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -3337,7 +3373,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "78-VSKY02300603-G408"
+		(property "Description" ""
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 123.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "78-VSKY02300603-G408"
 			(at 123.19 40.64 0)
 			(effects
 				(font

@@ -1645,6 +1645,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" ""
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8d92203-4638-4953-9d68-41ee9d856b4b")
 		)
@@ -1706,7 +1724,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "688-RK09D1130F30B104"
+		(property "Description" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 59.69 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "688-RK09D1130F30B104"
 			(at 59.69 67.31 0)
 			(effects
 				(font
@@ -1852,6 +1888,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" ""
+			(at 43.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d64b5563-45df-455c-b77d-af25346df6ba")
 		)
@@ -1987,6 +2041,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" ""
+			(at 83.82 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef21c515-5ac2-4a98-b296-006aa9f1800f")
 		)
@@ -2049,7 +2121,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "653-B3FS1095P"
+		(property "Description" ""
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser number" "653-B3FS1095P"
 			(at 125.73 68.58 0)
 			(effects
 				(font

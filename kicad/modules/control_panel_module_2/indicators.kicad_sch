@@ -1921,7 +1921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "~"
 			(at 143.51 93.9799 90)
 			(effects
 				(font
@@ -2579,7 +2579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
+		(property "Value" "~"
 			(at 143.51 78.7399 90)
 			(effects
 				(font

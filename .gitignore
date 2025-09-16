@@ -4,6 +4,7 @@
 **/MCU_module-backups/
 **/DRV8874_module/
 **/control_panel_module-backups/
+**/control_panel_module-backups/
 **/pico-sdk/
 **/.vscode/
 **/.DS_Store
