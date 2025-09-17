@@ -1912,8 +1912,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ce9839d-a9e8-4263-b9c4-7f3098f6ce89")
-		(property "Reference" "LED_ERR_OFFBOARD1"
-			(at 143.51 91.4399 90)
+		(property "Reference" "J8"
+			(at 143.51 92.0749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,8 +1921,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 143.51 93.9799 90)
+		(property "Value" "1x2 5.08"
+			(at 143.51 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +1948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CUSTOM"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -1957,7 +1957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TB0012-508-02GR"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -1966,7 +1966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" ""
+		(property "Mouser number" "179-TB0012-508-02GR"
 			(at 140.97 92.71 0)
 			(effects
 				(font
@@ -1984,7 +1984,7 @@
 		(instances
 			(project "control_panel_module"
 				(path "/01f48663-51d7-48f4-9aa9-9279c565a6cb/da3882a4-de83-4b7b-a911-0ab86609a0d0"
-					(reference "LED_ERR_OFFBOARD1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 33.02 36.83 0)
 			(effects
 				(font
@@ -2045,7 +2045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 33.02 36.83 0)
 			(effects
 				(font
@@ -2189,7 +2189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -2198,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMO1300-GS08"
 			(at 48.26 44.45 0)
 			(effects
 				(font
@@ -2342,7 +2342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 64.77 44.45 0)
 			(effects
 				(font
@@ -2351,7 +2351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 64.77 44.45 0)
 			(effects
 				(font
@@ -2430,7 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 64.77 36.83 0)
 			(effects
 				(font
@@ -2439,7 +2439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 64.77 36.83 0)
 			(effects
 				(font
@@ -2518,7 +2518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 48.26 36.83 0)
 			(effects
 				(font
@@ -2527,7 +2527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 48.26 36.83 0)
 			(effects
 				(font
@@ -2570,8 +2570,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c19543c8-a88c-4a66-b530-7661b5077781")
-		(property "Reference" "LED_STATUS_OFFBOARD1"
-			(at 143.51 76.1999 90)
+		(property "Reference" "J7"
+			(at 143.51 76.8349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,8 +2579,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 143.51 78.7399 90)
+		(property "Value" "1x2 5.08"
+			(at 143.51 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CUSTOM"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -2615,7 +2615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TB0012-508-02GR"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -2624,7 +2624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" ""
+		(property "Mouser number" "179-TB0012-508-02GR"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 		(instances
 			(project "control_panel_module"
 				(path "/01f48663-51d7-48f4-9aa9-9279c565a6cb/da3882a4-de83-4b7b-a911-0ab86609a0d0"
-					(reference "LED_STATUS_OFFBOARD1")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2891,7 +2891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -2900,7 +2900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ULN2004ADR"
 			(at 118.11 77.47 0)
 			(effects
 				(font
@@ -3020,7 +3020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 33.02 44.45 0)
 			(effects
 				(font
@@ -3029,7 +3029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMG1300-GS08 "
 			(at 33.02 44.45 0)
 			(effects
 				(font

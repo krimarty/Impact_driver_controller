@@ -1802,7 +1802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -1811,7 +1811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMG1300-GS08"
 			(at 134.62 74.93 0)
 			(effects
 				(font
@@ -1890,7 +1890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -1899,7 +1899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SS34"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -1950,7 +1950,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 uF, 25V"
+		(property "Value" "100uF"
 			(at 71.374 82.55 90)
 			(effects
 				(font
@@ -1977,7 +1977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -1986,7 +1986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "T491X107M025ATAUTO"
 			(at 74.93 76.2 0)
 			(effects
 				(font
@@ -2038,7 +2038,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1 A"
+		(property "Value" "FUSE 1A"
 			(at 77.47 64.7699 0)
 			(effects
 				(font
@@ -2065,7 +2065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -2074,7 +2074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "3568"
 			(at 74.93 63.5 0)
 			(effects
 				(font
@@ -2151,7 +2151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -2160,7 +2160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -2239,7 +2239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -2248,7 +2248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C1206C474K5RACAUTO7210"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -2392,7 +2392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -2401,7 +2401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "L78M05CDT-TR"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -2558,7 +2558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603C104K5RACAUTO"
 			(at 118.11 76.2 0)
 			(effects
 				(font

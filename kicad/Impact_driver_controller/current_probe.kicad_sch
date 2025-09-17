@@ -1028,7 +1028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 123.19 78.74 0)
 			(effects
 				(font
@@ -1037,7 +1037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
 			(at 123.19 78.74 0)
 			(effects
 				(font
@@ -1116,7 +1116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -1125,7 +1125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -1204,7 +1204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -1213,7 +1213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "C0603C102J2TACAUTO"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -1424,7 +1424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 123.19 69.85 0)
 			(effects
 				(font
@@ -1433,7 +1433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
 			(at 123.19 69.85 0)
 			(effects
 				(font
@@ -1485,7 +1485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ACS712 30A"
+		(property "Value" "ACS71230A"
 			(at 88.5541 41.91 0)
 			(effects
 				(font
@@ -1514,7 +1514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 86.36 52.07 0)
 			(effects
 				(font
@@ -1523,7 +1523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ACS712ELCTR-30A-T"
 			(at 86.36 52.07 0)
 			(effects
 				(font

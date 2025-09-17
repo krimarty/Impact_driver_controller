@@ -2787,7 +2787,7 @@
 				)
 			)
 		)
-		(property "Value" "Pico"
+		(property "Value" "RPI_PICO_2"
 			(at 95.25 33.02 0)
 			(effects
 				(font
@@ -2813,7 +2813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RPI Pico 2"
+		(property "Description" "CUSTOM"
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -2822,7 +2822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "SC1631"
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" ""
+		(property "Mouser number" "358-SC1631"
 			(at 95.25 62.23 0)
 			(effects
 				(font
@@ -3129,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "BTN_RESET"
 			(at 135.89 58.42 0)
 			(effects
 				(font
@@ -3155,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -3164,7 +3164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "TS09-63-25-WT-160-SMT-TR "
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 123.19 40.64 0)
 			(effects
 				(font
@@ -3382,7 +3382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VSKY02300603-G4-08"
 			(at 123.19 40.64 0)
 			(effects
 				(font

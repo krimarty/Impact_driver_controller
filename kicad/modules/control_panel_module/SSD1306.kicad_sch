@@ -508,7 +508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SSD1306 OLED"
+		(property "Description" "CUSTOM"
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -517,7 +517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "333099"
 			(at 101.6 72.39 0)
 			(effects
 				(font
@@ -526,7 +526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" ""
+		(property "Mouser number" "392-333099"
 			(at 101.6 72.39 0)
 			(effects
 				(font

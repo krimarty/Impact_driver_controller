@@ -533,7 +533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -542,7 +542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMG1300-GS08"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -620,7 +620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -629,7 +629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMO1300-GS08"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -774,7 +774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -783,7 +783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -862,7 +862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 118.11 59.69 0)
 			(effects
 				(font
@@ -871,7 +871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 118.11 59.69 0)
 			(effects
 				(font
@@ -1015,7 +1015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -1024,7 +1024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -1103,7 +1103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 85.09 59.69 0)
 			(effects
 				(font
@@ -1112,7 +1112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 85.09 59.69 0)
 			(effects
 				(font

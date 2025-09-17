@@ -2108,7 +2108,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "W203 (100K)"
+		(property "Value" "100k"
 			(at 154.94 40.6399 0)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CUSTOM"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -2144,7 +2144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "3296W-1-104LF"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 201.93 36.83 0)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 201.93 36.83 0)
 			(effects
 				(font
@@ -2381,7 +2381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -2390,7 +2390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -2668,7 +2668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -2677,7 +2677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -2755,7 +2755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -2764,7 +2764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -3129,7 +3129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3138,7 +3138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3350,7 +3350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -3359,7 +3359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -3438,7 +3438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 181.61 36.83 0)
 			(effects
 				(font
@@ -3447,7 +3447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 181.61 36.83 0)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3534,7 +3534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3621,7 +3621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3942,7 +3942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -3951,7 +3951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4038,7 +4038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "VLMS1300-GS08"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ULM"
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -4946,7 +4946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
 			(at 228.6 36.83 0)
 			(effects
 				(font
