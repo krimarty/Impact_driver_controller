@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8874PWPR_module")(type "KiCad")(uri "${KIPRJMOD}/libs/DRV8874PWPR/DRV8874PWPR.kicad_sym")(options "")(descr ""))
+  (lib (name "DRV8874_module")(type "KiCad")(uri "C:/Users/marti/Documents/GitHub/Impact_driver_controller/kicad/Impact_driver_controller/libs/modules/DRV8874_module.kicad_sym")(options "")(descr ""))
+)

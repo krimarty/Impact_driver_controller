@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e8634522-90da-4bbb-9b36-cf4cbae9521b")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -76,10 +80,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -100,7 +116,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -112,22 +128,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -173,9 +177,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -294,12 +301,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -390,6 +402,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire
@@ -455,7 +468,6 @@
 	(hierarchical_label "STATUS"
 		(shape input)
 		(at 101.6 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -467,7 +479,6 @@
 	(hierarchical_label "PWR"
 		(shape input)
 		(at 85.09 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -479,7 +490,6 @@
 	(hierarchical_label "ERR"
 		(shape input)
 		(at 118.11 53.34 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -542,7 +552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMG1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LCGCK "
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -551,7 +561,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "78-VLMG1300-GS08"
+		(property "Mouser number" "604-APTD1608LCGCK"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED002"
 			(at 85.09 67.31 0)
 			(effects
 				(font
@@ -629,7 +648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMO1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSYCK"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -638,7 +657,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "78-VLMO1300-GS08"
+		(property "Mouser number" "604-APTD1608LSYCK"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED003"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -783,7 +811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -792,7 +820,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser number" "603-RC0603FR-071KL"
+			(at 101.6 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176"
 			(at 101.6 59.69 0)
 			(effects
 				(font
@@ -871,7 +908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 118.11 59.69 0)
 			(effects
 				(font
@@ -880,7 +917,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser number" "603-RC0603FR-071KL"
+			(at 118.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176"
 			(at 118.11 59.69 0)
 			(effects
 				(font
@@ -1024,7 +1070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -1033,7 +1079,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "78-VLMS1300-GS08"
+		(property "Mouser number" "604-APTD1608LSURCK"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -1112,7 +1167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 85.09 59.69 0)
 			(effects
 				(font
@@ -1121,7 +1176,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser number" "603-RC0603FR-071KL"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176"
 			(at 85.09 59.69 0)
 			(effects
 				(font

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 3.4,
+          "width": 2.48
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -179,7 +179,8 @@
       ],
       "track_widths": [
         0.0,
-        0.4
+        0.4,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -457,7 +458,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MCU_module.kicad_pro",
+    "filename": "DRV8874_module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -476,6 +477,24 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -526,7 +545,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -541,7 +560,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -550,16 +569,64 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
         },
         {
           "group_by": false,
@@ -574,7 +641,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mouser number",
           "name": "Mouser number",
           "show": true
@@ -621,14 +688,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -643,20 +702,16 @@
   },
   "sheets": [
     [
-      "83ef1c89-dd7f-4669-9ee3-8abf99ae078b",
+      "ef521092-300b-4108-a6d1-3d19e0b90b01",
       "Root"
     ],
     [
-      "b0fc9c92-0309-45ee-9859-0140ebca8dc7",
-      "RPI Pico"
+      "f1379ad8-29e4-46dd-8f5c-c0463f522f31",
+      "Motor driver"
     ],
     [
-      "c03331c9-4a5c-424d-8bfe-41d01ec5833d",
-      "Filters"
-    ],
-    [
-      "a9f81c19-1ba9-46b7-943d-000d292d71ed",
-      "Indicators"
+      "0df9ed95-11eb-458a-9879-333917adee4b",
+      "Power supply"
     ]
   ],
   "text_variables": {}

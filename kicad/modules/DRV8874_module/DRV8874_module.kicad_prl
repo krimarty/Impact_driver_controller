@@ -45,21 +45,21 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffcffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "control_panel_module_2.kicad_prl",
+    "filename": "DRV8874_module.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8b4e3e9e-81a7-47b4-a1d4-4cf88daab223")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,9 +142,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -261,6 +266,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -434,7 +440,6 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 106.68 40.64 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -446,7 +451,6 @@
 	(hierarchical_label "A1_OUT"
 		(shape output)
 		(at 114.3 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -458,7 +462,6 @@
 	(hierarchical_label "A1_IN"
 		(shape input)
 		(at 87.63 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -470,7 +473,6 @@
 	(hierarchical_label "A0_OUT"
 		(shape output)
 		(at 114.3 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -482,7 +484,6 @@
 	(hierarchical_label "A2_0UT"
 		(shape output)
 		(at 114.3 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -494,7 +495,6 @@
 	(hierarchical_label "A2_IN"
 		(shape input)
 		(at 87.63 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -506,7 +506,6 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 106.68 64.77 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -518,7 +517,6 @@
 	(hierarchical_label "A0_IN"
 		(shape input)
 		(at 87.63 29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -530,7 +528,6 @@
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 106.68 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -591,7 +588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-0710KL"
 			(at 96.52 29.21 0)
 			(effects
 				(font
@@ -600,8 +597,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "71-CRCW0603-10K-E3"
+		(property "Mouser number" "603-RC0603FR-0710KL"
 			(at 96.52 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0201"
+			(at 96.52 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,7 +685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C105K5RACAUTO"
+		(property "Manufacturer Part Number" "CC603KRX5R8BB105"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -688,7 +694,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "80-C1206C105K5RAUTO"
+		(property "Mouser number" "603-CC603KRX5R8BB105"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCCK405"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -764,7 +779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-0710KL"
 			(at 96.52 77.47 0)
 			(effects
 				(font
@@ -773,8 +788,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "71-CRCW0603-10K-E3"
+		(property "Mouser number" "603-RC0603FR-0710KL"
 			(at 96.52 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0201"
+			(at 96.52 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,6 +894,15 @@
 				(hide yes)
 			)
 		)
+		(property "Ullmanna Part Number" ""
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b082dcbc-8ec0-4339-8604-fee4fb139da9")
 		)
@@ -937,7 +970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW060310K0FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-0710KL"
 			(at 96.52 53.34 0)
 			(effects
 				(font
@@ -946,8 +979,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "71-CRCW0603-10K-E3"
+		(property "Mouser number" "603-RC0603FR-0710KL"
 			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0201"
+			(at 96.52 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1025,7 +1067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "C1206C105K5RACAUTO"
+		(property "Manufacturer Part Number" "CC603KRX5R8BB105"
 			(at 106.68 82.55 0)
 			(effects
 				(font
@@ -1034,7 +1076,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "80-C1206C105K5RAUTO"
+		(property "Mouser number" "603-CC603KRX5R8BB105"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCCK405"
 			(at 106.68 82.55 0)
 			(effects
 				(font

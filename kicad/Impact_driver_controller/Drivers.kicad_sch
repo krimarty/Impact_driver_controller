@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "1c206126-5091-44d2-ac34-be8efce6fbf2")
 	(paper "A4")
 	(lib_symbols
@@ -64,17 +64,17 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at -10.16 -8.89 0)
+				(pin no_connect line
+					(at -10.16 8.89 0)
 					(length 2.54)
-					(name "EN"
+					(name "none"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -83,16 +83,16 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 -1.27 180)
+					(at -10.16 6.35 0)
 					(length 2.54)
-					(name "VIN"
+					(name "+Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -101,52 +101,16 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -6.35 0)
+					(at -10.16 3.81 0)
 					(length 2.54)
-					(name "PH"
+					(name "IPROP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "SLEEP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "FAULT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -173,16 +137,16 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 3.81 0)
+					(at -10.16 -1.27 0)
 					(length 2.54)
-					(name "IPROP"
+					(name "FAULT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -190,17 +154,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 6.35 0)
+				(pin passive line
+					(at -10.16 -3.81 0)
 					(length 2.54)
-					(name "+Vcc"
+					(name "SLEEP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -208,17 +172,35 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -10.16 8.89 0)
+				(pin passive line
+					(at -10.16 -6.35 0)
 					(length 2.54)
-					(name "none"
+					(name "PH"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -244,12 +226,35 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -317,10 +322,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -341,7 +358,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -353,22 +370,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -414,9 +419,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -535,10 +543,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Potentiometer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -604,12 +615,11 @@
 				)
 			)
 			(symbol "R_Potentiometer_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -628,11 +638,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -660,24 +671,6 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "3"
@@ -695,13 +688,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -773,7 +789,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -785,7 +801,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -816,12 +832,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -912,6 +933,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(no_connect
@@ -1570,7 +1592,6 @@
 	)
 	(label "+Vref"
 		(at 41.91 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1581,7 +1602,6 @@
 	)
 	(label "+Vref"
 		(at 163.83 39.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1592,7 +1612,6 @@
 	)
 	(label "+Vref"
 		(at 41.91 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1603,7 +1622,6 @@
 	)
 	(label "+Vref"
 		(at 99.06 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1614,7 +1632,6 @@
 	)
 	(label "+Vref"
 		(at 99.06 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1625,7 +1642,6 @@
 	)
 	(label "+Vref"
 		(at 41.91 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1636,7 +1652,6 @@
 	)
 	(label "+Vref"
 		(at 99.06 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1648,7 +1663,6 @@
 	(hierarchical_label "SLEEP"
 		(shape input)
 		(at 41.91 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1660,7 +1674,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 41.91 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1672,7 +1685,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 99.06 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1684,7 +1696,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 41.91 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1696,7 +1707,6 @@
 	(hierarchical_label "SLEEP"
 		(shape input)
 		(at 99.06 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1708,7 +1718,6 @@
 	(hierarchical_label "FAULT_5"
 		(shape input)
 		(at 99.06 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,7 +1729,6 @@
 	(hierarchical_label "PH"
 		(shape input)
 		(at 41.91 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1732,7 +1740,6 @@
 	(hierarchical_label "PH"
 		(shape input)
 		(at 99.06 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1744,7 +1751,6 @@
 	(hierarchical_label "SLEEP"
 		(shape input)
 		(at 41.91 69.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1756,7 +1762,6 @@
 	(hierarchical_label "PH"
 		(shape input)
 		(at 41.91 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1768,7 +1773,6 @@
 	(hierarchical_label "PH"
 		(shape input)
 		(at 41.91 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1780,7 +1784,6 @@
 	(hierarchical_label "FAULT_1"
 		(shape input)
 		(at 181.61 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1792,7 +1795,6 @@
 	(hierarchical_label "FAULT_3"
 		(shape input)
 		(at 41.91 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,7 +1806,6 @@
 	(hierarchical_label "FAULT_5"
 		(shape input)
 		(at 219.71 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1816,7 +1817,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 41.91 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1828,7 +1828,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 157.48 34.29 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1840,7 +1839,6 @@
 	(hierarchical_label "FAULT_4"
 		(shape input)
 		(at 99.06 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,7 +1850,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 99.06 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1864,7 +1861,6 @@
 	(hierarchical_label "SLEEP"
 		(shape input)
 		(at 99.06 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +1872,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 99.06 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,7 +1883,6 @@
 	(hierarchical_label "FAULT_2"
 		(shape input)
 		(at 191.77 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,7 +1894,6 @@
 	(hierarchical_label "SLEEP"
 		(shape input)
 		(at 41.91 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1912,7 +1905,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 41.91 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1924,7 +1916,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 41.91 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1936,7 +1927,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 99.06 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1948,7 +1938,6 @@
 	(hierarchical_label "FAULT_6"
 		(shape input)
 		(at 99.06 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1960,7 +1949,6 @@
 	(hierarchical_label "FAULT_3"
 		(shape input)
 		(at 201.93 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1972,7 +1960,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 99.06 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1984,7 +1971,6 @@
 	(hierarchical_label "PH"
 		(shape input)
 		(at 99.06 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1996,7 +1982,6 @@
 	(hierarchical_label "PH"
 		(shape input)
 		(at 99.06 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2008,7 +1993,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 99.06 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2020,7 +2004,6 @@
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 41.91 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2032,7 +2015,6 @@
 	(hierarchical_label "SLEEP"
 		(shape input)
 		(at 99.06 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2044,7 +2026,6 @@
 	(hierarchical_label "FAULT_1"
 		(shape input)
 		(at 41.91 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2056,7 +2037,6 @@
 	(hierarchical_label "FAULT_2"
 		(shape input)
 		(at 41.91 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2068,7 +2048,6 @@
 	(hierarchical_label "FAULT_4"
 		(shape input)
 		(at 210.82 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,7 +2059,6 @@
 	(hierarchical_label "FAULT_6"
 		(shape input)
 		(at 228.6 31.75 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,6 +2140,15 @@
 				(hide yes)
 			)
 		)
+		(property "Ullmanna Part Number" ""
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6865a73-4be0-45a3-b6de-fcef832a3439")
 		)
@@ -2235,7 +2222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 201.93 36.83 0)
 			(effects
 				(font
@@ -2244,7 +2231,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser Part Number" "603-RC0603FR-071KL"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176 "
 			(at 201.93 36.83 0)
 			(effects
 				(font
@@ -2390,7 +2386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -2399,7 +2395,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser Part Number" "603-RC0603FR-071KL"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176 "
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -2677,7 +2682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -2686,7 +2691,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser Part Number" "603-RC0603FR-071KL"
+			(at 191.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176 "
 			(at 191.77 36.83 0)
 			(effects
 				(font
@@ -2764,7 +2778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -2773,7 +2787,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-VLMS1300-GS08"
+		(property "Mouser Part Number" "604-APTD1608LSURCK"
+			(at 210.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -2860,6 +2883,15 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" ""
 			(at 54.61 38.1 0)
 			(effects
 				(font
@@ -2970,6 +3002,15 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" ""
 			(at 54.61 66.04 0)
 			(effects
 				(font
@@ -3138,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3147,7 +3188,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-VLMS1300-GS08"
+		(property "Mouser Part Number" "604-APTD1608LSURCK"
+			(at 191.77 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3359,7 +3409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -3368,7 +3418,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser Part Number" "603-RC0603FR-071KL"
+			(at 219.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176 "
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -3447,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 181.61 36.83 0)
 			(effects
 				(font
@@ -3456,7 +3515,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser Part Number" "603-RC0603FR-071KL"
+			(at 181.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176 "
 			(at 181.61 36.83 0)
 			(effects
 				(font
@@ -3534,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3543,7 +3611,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-VLMS1300-GS08"
+		(property "Mouser Part Number" "604-APTD1608LSURCK"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3621,7 +3698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3630,7 +3707,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-VLMS1300-GS08"
+		(property "Mouser Part Number" "604-APTD1608LSURCK"
+			(at 219.71 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3717,6 +3803,15 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" ""
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -3951,7 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -3960,7 +4055,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-VLMS1300-GS08"
+		(property "Mouser Part Number" "604-APTD1608LSURCK"
+			(at 201.93 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -4038,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VLMS1300-GS08"
+		(property "Manufacturer Part Number" "APTD1608LSURCK"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4047,7 +4151,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "78-VLMS1300-GS08"
+		(property "Mouser Part Number" "604-APTD1608LSURCK"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCLED004"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4134,6 +4247,15 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" ""
 			(at 111.76 38.1 0)
 			(effects
 				(font
@@ -4511,6 +4633,15 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" ""
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -4946,7 +5077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CRCW06031K00FKEA"
+		(property "Manufacturer Part Number" "RC0603FR-071KL"
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -4955,7 +5086,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-1.0K-E3"
+		(property "Mouser Part Number" "603-RC0603FR-071KL"
+			(at 228.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" "BMCR0176 "
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -5109,6 +5249,15 @@
 			)
 		)
 		(property "Mouser Part Number" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ullmanna Part Number" ""
 			(at 111.76 93.98 0)
 			(effects
 				(font
