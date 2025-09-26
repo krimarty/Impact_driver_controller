@@ -3360,7 +3360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 123.19 40.64 0)
 			(effects
 				(font
@@ -3387,7 +3387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "VSKY02300603-G4-08"
+		(property "Manufacturer Part Number" "SD0805S020S0R5"
 			(at 123.19 40.64 0)
 			(effects
 				(font
@@ -3396,7 +3396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "78-VSKY02300603-G408"
+		(property "Mouser number" "581-SD0805S020S0R5"
 			(at 123.19 40.64 0)
 			(effects
 				(font

@@ -1108,7 +1108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -1135,7 +1135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LCGCK "
+		(property "Manufacturer Part Number" "APTD2012LCGCK "
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -1144,7 +1144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser number" "604-APTD1608LCGCK "
+		(property "Mouser number" "604-APTD2012LCGCK "
 			(at 48.26 40.64 0)
 			(effects
 				(font
@@ -1153,7 +1153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED002 "
+		(property "Ullmanna Part Number" "BMCLED102 "
 			(at 48.26 40.64 90)
 			(effects
 				(font

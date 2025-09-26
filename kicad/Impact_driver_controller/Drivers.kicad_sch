@@ -2751,7 +2751,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -2778,7 +2778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LSURCK"
+		(property "Manufacturer Part Number" "APTD2012LSURCK "
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD1608LSURCK"
+		(property "Mouser Part Number" "604-APTD2012LSURCK "
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -2796,7 +2796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED004"
+		(property "Ullmanna Part Number" "BMCLED104 "
 			(at 210.82 44.45 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3179,7 +3179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LSURCK"
+		(property "Manufacturer Part Number" "APTD2012LSURCK "
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3188,7 +3188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD1608LSURCK"
+		(property "Mouser Part Number" "604-APTD2012LSURCK "
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED004"
+		(property "Ullmanna Part Number" "BMCLED104 "
 			(at 191.77 44.45 0)
 			(effects
 				(font
@@ -3575,7 +3575,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LSURCK"
+		(property "Manufacturer Part Number" "APTD2012LSURCK "
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3611,7 +3611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD1608LSURCK"
+		(property "Mouser Part Number" "604-APTD2012LSURCK "
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3620,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED004"
+		(property "Ullmanna Part Number" "BMCLED104 "
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3698,7 +3698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LSURCK"
+		(property "Manufacturer Part Number" "APTD2012LSURCK "
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3707,7 +3707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD1608LSURCK"
+		(property "Mouser Part Number" "604-APTD2012LSURCK "
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -3716,7 +3716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED004"
+		(property "Ullmanna Part Number" "BMCLED104 "
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -4019,7 +4019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -4046,7 +4046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LSURCK"
+		(property "Manufacturer Part Number" "APTD2012LSURCK "
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD1608LSURCK"
+		(property "Mouser Part Number" "604-APTD2012LSURCK "
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -4064,7 +4064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED004"
+		(property "Ullmanna Part Number" "BMCLED104 "
 			(at 201.93 44.45 0)
 			(effects
 				(font
@@ -4115,7 +4115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "APTD1608LSURCK"
+		(property "Manufacturer Part Number" "APTD2012LSURCK "
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APTD1608LSURCK"
+		(property "Mouser Part Number" "604-APTD2012LSURCK "
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ullmanna Part Number" "BMCLED004"
+		(property "Ullmanna Part Number" "BMCLED104 "
 			(at 228.6 44.45 0)
 			(effects
 				(font
