@@ -13,88 +13,78 @@
 #include <Arduino.h>
 
 // Pin assignment
-constexpr int PIN_POT1 = 27;
-constexpr int PIN_POT2 = 26;
-constexpr int PIN_SW_MODE = 18;
-constexpr int PIN_SW2 = 5;
-constexpr int PIN_LED_STATUS = 17;
-constexpr int PIN_LED_ERROR  = 16;
+constexpr int DEFAULT_POT1_PIN       = 27;
+constexpr int DEFAULT_POT2_PIN       = 26;
+constexpr int DEFAULT_SW1_PIN        = 18;
+constexpr int DEFAULT_SW2_PIN        = 5;
+constexpr int DEFAULT_LED_STATUS_PIN = 17;
+constexpr int DEFAULT_LED_ERROR_PIN  = 16;
 
-enum class ModeType {
-    MANUAL,
-    RANDOM,
-    SEQUENCE
-};
 
-enum class Direction {
-    LEFT,
-    RIGHT,
-    STOP
-};
-class UserInterface {
-private:   
-    bool isLeftPressed()  { return digitalRead(PIN_BTN_LEFT)  == LOW; }
-    bool isRightPressed() { return digitalRead(PIN_BTN_RIGHT) == LOW; }
-    
+class ControlPanel {
+private:
+    uint8_t _pot1Pin;
+    uint8_t _pot2Pin;
+    uint8_t _sw1Pin;
+    uint8_t _sw2Pin;
+    uint8_t _ledStatusPin;
+    uint8_t _ledErrorPin;
+
+
+    volatile bool _sw1Pressed = false;
+    volatile bool _sw2Pressed = false;
+    static ControlPanel* _instance;
+
 public:
-    UserInterface() {
-        pinMode(PIN_POT, INPUT);
-        pinMode(PIN_BTN_LEFT, INPUT_PULLUP);
-        pinMode(PIN_BTN_RIGHT, INPUT_PULLUP);
-        pinMode(PIN_MODE, INPUT_PULLUP);
-        pinMode(PIN_INVERSE, INPUT_PULLUP);
-        pinMode(PIN_MAN, INPUT_PULLUP);
-        pinMode(PIN_SEQ, INPUT_PULLUP);
-        pinMode(PIN_LED_SIGNAL, OUTPUT);
-        pinMode(PIN_LED_LEFT, OUTPUT);
-        pinMode(PIN_LED_RIGHT, OUTPUT);
+    ControlPanel(        
+        uint8_t pot1Pin       = DEFAULT_POT1_PIN,
+        uint8_t pot2Pin       = DEFAULT_POT2_PIN,
+        uint8_t sw1Pin        = DEFAULT_SW1_PIN,
+        uint8_t sw2Pin        = DEFAULT_SW2_PIN,
+        uint8_t ledStatusPin  = DEFAULT_LED_STATUS_PIN,
+        uint8_t ledErrorPin   = DEFAULT_LED_ERROR_PIN
+    )
+        : _pot1Pin(pot1Pin),
+        _pot2Pin(pot2Pin),
+        _sw1Pin(sw1Pin),
+        _sw2Pin(sw2Pin),
+        _ledStatusPin(ledStatusPin),
+        _ledErrorPin(ledErrorPin)
+    {
+        pinMode(_pot1Pin, INPUT);
+        pinMode(_pot2Pin, INPUT);
+        pinMode(_sw1Pin, INPUT_PULLUP);
+        pinMode(_sw2Pin, INPUT_PULLUP);
+        pinMode(_ledStatusPin, OUTPUT);
+        pinMode(_ledErrorPin, OUTPUT);
+        digitalWrite(_ledStatusPin, LOW);
+        digitalWrite(_ledErrorPin, LOW);
+
+        _instance = this;
+        attachInterrupt(digitalPinToInterrupt(_sw1Pin), handleInterruptSw1, FALLING);
+        attachInterrupt(digitalPinToInterrupt(_sw2Pin), handleInterruptSw2, FALLING);
     }
 
-    Direction getDirection() {
-        if (isLeftPressed() && isRightPressed()) {
-            return Direction::STOP;
-        }
-        else if (isLeftPressed()) {
-            return Direction::LEFT;
-        } else if (isRightPressed()) {
-            return Direction::RIGHT;
-        } else {
-            return Direction::STOP;
-        }
+    static void handleInterruptSw1() { if (_instance) _instance->_sw1Pressed = true; }
+    static void handleInterruptSw2() { if (_instance) _instance->_sw2Pressed = true; }
+
+    bool wasSw1Pressed() { 
+        if (_sw1Pressed) { _sw1Pressed = false; return true; } 
+        return false; 
+    }
+    bool wasSw2Pressed() { 
+        if (_sw2Pressed) { _sw2Pressed = false; return true; } 
+        return false; 
     }
 
-    int getDirectionNum() {
-        if (isLeftPressed() && isRightPressed()) {
-            return 0;
-        }
-        else if (isLeftPressed()) {
-            return -1;
-        } else if (isRightPressed()) {
-            return 1;
-        } else {
-            return 0;
-        }
-    }
+    int readPot1() const { return analogRead(_pot1Pin); }
+    int readPot2() const { return analogRead(_pot2Pin); }
 
-    bool isSyncMode()     { return digitalRead(PIN_MODE)    == LOW; }
-    bool isInverse()      { return digitalRead(PIN_INVERSE) == LOW; }
+    void setLedStatus(bool on) { digitalWrite(_ledStatusPin, on ? HIGH : LOW); }
+    void setLedError(bool on)  { digitalWrite(_ledErrorPin, on ? HIGH : LOW); }
 
-    ModeType getModeType() {
-        if (digitalRead(PIN_MAN) == LOW)
-            return ModeType::MANUAL;
-        else if (digitalRead(PIN_SEQ) == LOW)
-            return ModeType::SEQUENCE;
-        else
-            return ModeType::RANDOM;
-    }
-
-    float readFilteredPotPercent() {
-        int raw = analogRead(PIN_POT);
-        return map(raw, 0, 1024, 20, 100);
-    }
-
-    void setSignalLed(bool state) { digitalWrite(PIN_LED_SIGNAL, state ? HIGH : LOW); }
-    void setLeftLed(bool state)   { digitalWrite(PIN_LED_LEFT,   state ? HIGH : LOW); }
-    void setRightLed(bool state)  { digitalWrite(PIN_LED_RIGHT,  state ? HIGH : LOW); }
-
+    void toggleLedStatus() { digitalWrite(_ledStatusPin, !digitalRead(_ledStatusPin)); }
+    void toggleLedError()  { digitalWrite(_ledErrorPin, !digitalRead(_ledErrorPin)); }
 };
+
+ControlPanel* ControlPanel::_instance = nullptr;
