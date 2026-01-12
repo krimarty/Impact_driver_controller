@@ -10,78 +10,69 @@
  * Notes:
  * ============================================================= */
 
-#include "include/Motor.h"
-#include "include/UserInterface.h"
+#include "include/DRV8874_motor.h"
+#include "include/Control_panel.h"
 
-// State machine
-enum class State {
-};
-State currentState = ;
+constexpr long unsigned int  DELAY_MS = 10; // [ms] speed of main loop
 
-// Sequention mode variables
-bool goingLeft = true;
+DRV8874_control motor;
+ControlPanel panel;
 
-// Classes
-Motor motor;
-UserInterface ui;
-std::vector<uint8_t> faultPins = {5, 6, 7};
-DRV8874_Indicator drivers(control, faultPins);
-
-if (drivers.isFault(1)) {
-    // chyba na pinu 6
-}
-
-
-State nextState(State state)
-{
-    return state;
-}
+bool stop = false;
 
 void setup() {
-    Serial.begin(115200);
-    pinMode(MS_PIN, INPUT_PULLUP);
-    bool isMaster = digitalRead(MS_PIN) == LOW;
+  Serial.begin(115200);
+  while (!Serial);
+  Serial.println("Starting Motor class test...");
 
-    motor.begin();
+  motor.begin();
 
-    // Setup finished
-    pinMode(25, OUTPUT);
-    digitalWrite(25, HIGH); 
+  Serial.println("Motor initialized.");
 }
 
 void loop() {
-    delay(DELAY_MS);
-    unsigned long currentMillis = millis();
-    unsigned long deltaMillis = currentMillis - lastMillis;
 
-    // Periodical class updates
-    motor.dutyUpdate();
-    //ui.readFilteredPotPercent();
 
-    // LEDs 
-    if (currentState != State::MANUAL)
+    if (stop == false)
     {
-        ui.setLeftLed(false);
-        ui.setRightLed(false);
-    }
-    if (currentState == State::SEQUENCE || currentState == State::RANDOM)
-        ui.setSignalLed(true);
-    else if (currentState == State::SYN)
-    {
-        if (comm_status)
-            ui.setSignalLed(true);
-        else
-        {
-            if (currentMillis - lastToggle >= 500)
-            {
-                ledState = !ledState;
-                ui.setSignalLed(ledState ? HIGH : LOW);
-                lastToggle = currentMillis;
-            }
-        }
+      int tmp2 = panel.readPot2();
+      for (size_t i = 0; i < tmp2; i++)
+      {
+          int tmp1 = panel.readPot1();
+          motor.left((tmp1 * 100) / 1023);
+          motor.dutyUpdate();
+          tmp2 = panel.readPot2();
+          if(panel.wasSw1Pressed()) 
+          {
+            stop = true;
+            break;
+          }
+          delay(DELAY_MS);
+      }
+
+      size_t a = 0;
+      while (tmp2 > a)
+      {
+          motor.stop();
+          motor.dutyUpdate();
+          tmp2 = panel.readPot2();
+          if(panel.wasSw1Pressed()) {Serial.println("pressed");}
+          if(panel.wasSw2Pressed()) 
+          {
+            stop = false;
+            break;
+          }
+          delay(DELAY_MS);
+          ++a;
+      }
     }
     else
-        ui.setSignalLed(false);
+    {
+      if(panel.wasSw2Pressed()) 
+        {
+          stop = false;
+        }
+      delay(10);
+    }
 
-    lastMillis = currentMillis;
 }
