@@ -82,6 +82,10 @@ public:
         stop();
     }
 
+    int getCurrentDuty() const {
+        return _currentDuty;
+    }
+
     void dutyUpdate() {
         dutyUpdate_worker();
     }
