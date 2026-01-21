@@ -13,6 +13,8 @@
 #include "include/DRV8874_motor.h"
 #include "include/Control_panel.h"
 
+constexpr long unsigned int  RUNNING_TIME = 5000; // [ms] default running time
+
 constexpr long unsigned int  DELAY_MS = 10; // [ms] speed of main loop
 
 DRV8874_control motor1(DEFAULT_PH_PIN, DEFAULT_EN_PIN, 9);
@@ -77,7 +79,9 @@ void loop() {
   }
 
   int duty = ((1023 -panel.readPot1()) * 100) / 1023;
-  int running_time_ms = map(panel.readPot2(), 1023, 0, 1, 360000);
+  int running_time_ms = RUNNING_TIME;
+  //int running_time_ms = map(panel.readPot2(), 1023, 0, 1, 360000);
+
 
 
   switch (currentState)
